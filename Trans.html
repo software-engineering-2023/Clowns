@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="Trans.css">
+
+</head>
+<body>
+    <html>
+  <head>
+    <title>Transaction History</title>
+  </head>
+  <body>
+    <h1>Transaction History</h1>
+    <form>
+      <label for="account">Account:</label>
+      <select id="account">
+        <option value="1234567890">Savings - 1234567890</option>
+        <option value="0987654321">Checking - 0987654321</option>
+      </select>
+      <br>
+      <label for="start-date">Start Date:</label>
+      <input type="date" id="start-date">
+      <br>
+      <label for="end-date">End Date:</label>
+      <input type="date" id="end-date">
+      <br><br>
+      <button type="submit">View Transactions</button>
+    </form>
+    <table>
+      <thead>
+        <tr>
+          <th>Date</th>
+          <th>Description</th>
+          <th>Type</th>
+          <th>Amount</th>
+          <th>Balance</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>2021-12-01</td>
+          <td>Payment from John Doe</td>
+          <td>Deposit</td>
+          <td>$500.00</td>
+          <td>$2,500.00</td>
+        </tr>
+        <tr>
+          <td>2021-11-30</td>
+          <td>ATM Withdrawal</td>
+          <td>Withdrawal</td>
+          <td>$100.00</td>
+          <td>$2,000.00</td>
+        </tr>
+        <tr>
+          <td>2021-11-28</td>
+          <td>Online Shopping</td>
+          <td>Debit Card</td>
+          <td>$50.00</td>
+          <td>$2,100.00</td>
+        </tr>
+        <tr>
+          <td>2021-11-25</td>
+          <td>Salary Deposit</td>
+          <td>Deposit</td>
+          <td>$2,000.00</td>
+          <td>$2,150.00</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
+<script src="./Control.js">
+</script>
+</body>
+</html>
