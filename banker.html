@@ -1,17 +1,208 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"><script src="https://kit.fontawesome.com/4250b4ded3.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="Banker.css">
-    <title>Banker</title>
+  <title>Banker Page</title>
+  <style>
+    :root {
+      --primary-color: #2196F3;
+      --success-color: #4CAF50;
+      --error-color: #F44336;
+      --background-color: #f1f1f1;
+    }
+    
+    body {
+      font-family: Arial, sans-serif;
+      background-color: var(--background-color);
+      margin: 0;
+      padding: 0;
+    }
+    
+    h1 {
+      text-align: center;
+      color: var(--primary-color);
+    }
+    
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-bottom: 20px;
+      background-color: #ffffff;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    }
+    
+    th, td {
+      padding: 10px;
+      text-align: left;
+      border-bottom: 1px solid #ddd;
+    }
+    
+    th {
+      background-color: var(--background-color);
+    }
+    
+    .btn-approve, .btn-disapprove {
+      padding: 6px 12px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      color: white;
+      font-weight: bold;
+      text-transform: uppercase;
+    }
+    
+    .btn-approve {
+      background-color: var(--success-color);
+    }
+    
+    .btn-disapprove {
+      background-color: var(--error-color);
+    }
+    
+    .message-section {
+      margin-top: 20px;
+      background-color: #ffffff;
+      padding: 20px;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    }
+    
+    textarea {
+      width: 100%;
+      height: 80px;
+      padding: 10px;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+    }
+    
+    .btn-send {
+      padding: 10px 20px;
+      background-color: var(--primary-color);
+      border: none;
+      color: white;
+      cursor: pointer;
+      font-weight: bold;
+      text-transform: uppercase;
+    }
+    .approved {
+  color: green;
+  font-weight: bold;
+}
+
+.disapproved {
+  color: red;
+  font-weight: bold;
+}
+  </style>
 </head>
 <body>
-    <div>
-        <a href="/Respond"><i class="fa-regular fa-phone fa-2x" alt="Respond"></i><p>Respond</p></a>
-        <a href="/CreditCardApprovement"><i class="fa-regular fa-credit-card fa-2x" alt="CreditCard"></i><p>Approve</p><p>Diasaprove</p></a>
-        <a href="/LoanApprovement"><i class="fa-solid fa-dollar-sign fa-2x" alt="Bills"></i></a>
-    </div>
+  <h1>Banker Page</h1>
+
+  <h2>Credit Card Applications</h2>
+  <table id="credit-card-table">
+    <tr>
+      <th>Name</th>
+      <th>Status</th>
+      <th>Action</th>
+    </tr>
+    <!-- Application rows will be dynamically generated here -->
+  </table>
+
+  <h2>Loan Applications</h2>
+  <table id="loan-table">
+    <tr>
+      <th>Name</th>
+      <th>Status</th>
+      <th>Action</th>
+    </tr>
+    <!-- Application rows will be dynamically generated here -->
+  </table>
+
+  <h2>Send Message/Report An issue to the admin</h2>
+  <div class="message-section">
+    <textarea id="message-input" placeholder="Type your message here..."></textarea>
+    <button class="btn-send" onclick="sendMessage()">Send</button>
+  </div>
+
+  <script>
+   // JavaScript code to populate and handle application data dynamically
+// You can replace this code with your own implementation
+
+// Sample data for credit card applications
+var creditCardApplications = [
+  { name: "John Doe", status: "Pending" },
+  { name: "Jane Smith", status: "Pending" },
+  { name: "Mark Johnson", status: "Pending" }
+];
+
+// Sample data for loan applications
+var loanApplications = [
+  { name: "Alex Brown", status: "Pending" },
+  { name: "Emily Davis", status: "Pending" },
+  { name: "Mike Wilson", status: "Pending" }
+];
+
+// Populate credit card applications
+var creditCardTable = document.getElementById("credit-card-table");
+populateApplications(creditCardTable, creditCardApplications);
+
+// Populate loan applications
+var loanTable = document.getElementById("loan-table");
+populateApplications(loanTable, loanApplications);
+
+function populateApplications(table, applications) {
+  applications.forEach(function(application) {
+    var row = table.insertRow();
+    var nameCell = row.insertCell();
+    var statusCell = row.insertCell();
+    var actionCell = row.insertCell();
+
+    nameCell.textContent = application.name;
+    statusCell.textContent = application.status;
+
+    var approveBtn = document.createElement("button");
+    approveBtn.className = "btn-approve";
+    approveBtn.textContent = "Approve";
+    approveBtn.addEventListener("click", function() {
+      approveApplication(application, statusCell);
+    });
+    actionCell.appendChild(approveBtn);
+
+    var disapproveBtn = document.createElement("button");
+    disapproveBtn.className = "btn-disapprove";
+    disapproveBtn.textContent = "Disapprove";
+    disapproveBtn.addEventListener("click", function() {
+      disapproveApplication(application, statusCell);
+    });
+    actionCell.appendChild(disapproveBtn);
+  });
+}
+
+function approveApplication(application, statusCell) {
+  // Perform logic to approve the application
+  application.status = "Approved";
+  statusCell.textContent = "Approved";
+  statusCell.classList.remove("disapproved");
+  statusCell.classList.add("approved");
+}
+
+function disapproveApplication(application, statusCell) {
+  // Perform logic to disapprove the application
+  application.status = "Disapproved";
+  statusCell.textContent = "Disapproved";
+  statusCell.classList.remove("approved");
+  statusCell.classList.add("disapproved");
+}
+
+function sendMessage() {
+  var messageInput = document.getElementById("message-input");
+  var message = messageInput.value;
+
+  // Code to send the message to someone
+
+  // Display a pop-up message when the message is sent successfully
+  alert("Message was sent to the admin successfully!");
+
+  messageInput.value = ""; // Clear the message input
+}
+  </script>
 </body>
 </html>
