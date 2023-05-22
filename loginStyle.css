@@ -1,6 +1,5 @@
 :root{
-    background-color: #8BC6EC;
-    background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
+    background-color: #131313;
                }
 /*body{
     margin: 0;
@@ -15,7 +14,7 @@
     width: 320px;
     height: 420px;
     background: #000;
-    color: #fff;
+    color: #833ab4;
     top: 50%;
     left: 50%;
     position: absolute;
@@ -53,7 +52,7 @@ h1{
 
 .loginbox input[type="text"], input[type="password"]{
     border: none;
-    border-bottom: 1px solid #fff;
+    border-bottom: 1px solid #833ab4;
     background: transparent;
     outline: none;
     height: 40px;
@@ -66,7 +65,7 @@ h1{
     border: none;
     outline: none;
     height: 40px;
-    background: #fb2525;
+    background: #833ab4;
     color: #fff;
     font-size: 18px;
     border-radius: 20px;
@@ -74,7 +73,7 @@ h1{
 
 .loginbox input[type="button"]:hover{
     cursor: pointer;
-    background: #ffc107;
+    background: #da22ff;
     color: #000;
 
 

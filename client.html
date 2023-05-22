@@ -43,12 +43,25 @@
                 <p>$-200</p>
             </li>
             <li class="item">
-                <a href="#">phone</a>
+                <a href="#">Phone</a>
                 <p>$-45</p>
             </li>
         </ul>
+       <button type="button" class="close" onclick="Sure()">Close Account</button>
+        
    </div>
-  <script src="./Control.js">
+  <script>
+
+    // Get the button element
+const button = document.querySelector('button');
+
+// Add an event listener to the button that listens for the click event
+function Sure(){
+if (confirm("Do you really want to delete your profile?")) {
+        location.href = '/Home.html';
+    }
+}
+</script>
  
    </script>
 </body>

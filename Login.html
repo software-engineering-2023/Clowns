@@ -25,11 +25,20 @@
         function Move(){
             let user = document.getElementById("username").value;
             let pass = document.getElementById("Pass").value;
-            if(user === "mickey" && pass === "7181"){
+            if(user === "client" && pass === "1234"){
                 location.replace('/client.html');
                  } 
-             if (user === "" || pass === ""){
+            else if(user === "banker" && pass ==="1234"){
+                location.replace('/banker.html')
+            }
+            else if(user === "admin" && pass ==="1234"){
+                location.replace('/Admin.html')
+            }
+            else if (user === "" || pass === ""){
                 alert("wrong") ;
+            }
+            else{
+                alert("User not found! Try again");
             }
 
             }
