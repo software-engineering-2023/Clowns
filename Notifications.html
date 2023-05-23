@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Notifications Page</title>
+  <style>
+    /* Global Styles */
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f0f0f0;
+      margin: 0;
+      padding: 0;
+    }
+    
+    .container {
+      max-width: 1200px;
+      margin: 20px auto;
+      padding: 20px;
+      background-color: whitesmoke;
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    }
+    
+    h1 {
+      color: #333;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    
+    /* Notification Styles */
+    .notification {
+      border: 1px solid #ccc;
+      padding: 10px;
+      margin-bottom: 10px;
+      background-color: #fff;
+      position: relative;
+      border-radius: 5px;
+      transition: background-color 0.3s;
+    }
+    
+    .notification.unread {
+      background-color: #f0f0f0;
+    }
+    
+    .notification .title {
+      font-weight: bold;
+    }
+    
+    .notification .date {
+      font-size: 12px;
+      color: #888;
+    }
+    
+    /* el button nafso */
+    .notification .mark-as-read {
+      position: absolute;
+      top: 5px;
+      right: 5px;
+      font-size: 12px;
+      color: #888;
+      cursor: pointer;
+      transition: color 0.3s;
+    }
+    
+    .notification .mark-as-read:hover {
+      color: black;
+    }
+    
+    /* Notification Types */
+    .reminder {
+      border-left: 4px solid #f1c40f;
+    }
+    
+    .notification .type {
+      font-size: 14px;
+      color:deepskyblue;
+      margin-bottom: 5px;
+    }
+    
+    .notification .content {
+      margin-left: 15px;
+    }
+    
+    .notification .content p {
+      margin: 0;
+      padding: 0;
+      color: #333;
+    }
+    
+    .notification .content .actions {
+      margin-top: 10px;
+    }
+    
+    .notification .content .actions button {
+      background-color: #f1c40f;
+      color: #fff;
+      border: none;
+      padding: 5px 10px;
+      margin-right: 10px;
+      cursor: pointer;
+      border-radius: 3px;
+      transition: background-color 0.3s;
+    }
+    
+    .notification .content .actions button:hover {
+      background-color: #e2b607;
+    }
+    
+    .notification .content .actions button:disabled {
+      background-color: #ccc;
+      cursor: not-allowed;
+    }
+    
+    .notification .content .actions button.mark-as-read {
+      background-color: transparent;
+      color: #f1c40f;
+      margin-right: 0;
+    }
+    
+    /* Bank Announcements */
+    .announcement {
+      border-left: 4px solid #3498db;
+    }
+    
+    /* Custom Scrollbar */
+    .notifications-list {
+      max-height: 500px;
+      overflow-y: auto;
+      scrollbar-width: thin;
+    }
+    
+    .notifications-list::-webkit-scrollbar {
+      width: 8px;
+    }
+    
+    .notifications-list::-webkit-scrollbar-track {
+      background-color: #f0f0f0;
+    }
+    
+    .notifications-list::-webkit-scrollbar-thumb {
+      background-color: #ccc;
+      border-radius: 4px;
+    }
+    
+    .notifications-list::-webkit-scrollbar-thumb:hover {
+      background-color: #aaa;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Notifications</h1>
+    <div class="notifications-list">
+      <div class="notification reminder unread">
+        <div class="mark-as-read">Mark as Read</div>
+        <div class="type">Reminder</div>
+        <div class="content">
+          <p>Don't forget to pay gas / electricity/ water/ telephone bills for this month.</p>
+          <div class="actions">
+            <!-- <button>Reply</button>
+            <button>Dismiss</button> -->
+            <!-- <button class="mark-as-read">Mark as Read</button> -->
+            <!-- <button class="remind-later">Remind Me Later</button> -->
+          </div>
+        </div>
+      </div>
+      <div class="notification reminder">
+        <div class="mark-as-read">Mark as Read</div>
+        <div class="type">Reminder</div>
+        <div class="content">
+          <p>Please note that your credit card is about to expire.</p>
+          <div class="actions">
+            <!-- <button>Start</button>
+            <button>Remind Me Later</button> -->
+            <!-- <button class="mark-as-read">Mark as Read</button> -->
+            <!-- <button class="remind-later">Remind Me Later</button> -->
+          </div>
+        </div>
+      </div>
+      <div class="notification announcement unread">
+        <div class="mark-as-read">Mark as Read</div>
+        <div class="type">Bank Announcement</div>
+        <div class="content">
+          <p>The Bank has released a new type of loan.</p>
+          <div class="actions">
+            <!-- <button>Download</button> -->
+            <!-- <button class="mark-as-read">Mark as Read</button> -->
+            <!-- <button class="remind-later">Remind Me Later</button> -->
+          </div>
+        </div>
+      </div>
+      <div class="notification reminder unread">
+        <div class="mark-as-read">Mark as Read</div>
+        <div class="type">Reminder</div>
+        <div class="content">
+          <p>Don't forget to pay your loan payment.</p>
+          <div class="actions">
+            <!-- <button>Submit</button>
+            <button>Dismiss</button> -->
+            <!-- <button class="mark-as-read">Mark as Read</button> -->
+            <!-- <button class="remind-later">Remind Me Later</button> -->
+          </div>
+        </div>
+      </div>
+      <div class="notification announcement">
+        <div class="mark-as-read">Mark as Read</div>
+        <div class="type">Bank Announcement</div>
+        <div class="content">
+          <p>There will be a scheduled maintenance on our banking system this weekend.</p>
+          <div class="actions">
+            <!-- <button>Learn More</button> -->
+            <!-- <button class="mark-as-read">Mark as Read</button> -->
+            <!-- <button class="remind-later">Remind Me Later</button> -->
+          </div>
+        </div>
+      </div>
+      <div class="notification reminder">
+        <div class="mark-as-read">Mark as Read</div>
+        <div class="type">Reminder</div>
+        <div class="content">
+          <p>The issue that was reported to the admin was solved successfully.</p>
+          <div class="actions">
+            <!-- <button>Call</button>
+            <button>Remind Me Later</button> -->
+            <!-- <button class="mark-as-read">Mark as Read</button> -->
+            <!-- <button class="remind-later">Remind Me Later</button> -->
+          </div>
+        </div>
+      </div>
+      <div class="notification announcement">
+        <div class="mark-as-read">Mark as Read</div>
+        <div class="type">Reminder</div>
+        <div class="content">
+          <p>Your credit card payment is due in 5 days.</p>
+          <div class="actions">
+            <!-- <button>Pay Now</button> -->
+            <!-- <button class="mark-as-read">Mark as Read</button> -->
+            <!-- <button class="remind-later">Remind Me Later</button> -->
+          </div>
+        </div>
+      </div>
+      <div class="notification announcement unread">
+        <div class="mark-as-read">Mark as Read</div>
+        <div class="type">Bank Announcement</div>
+        <div class="content">
+          <p>Upgrade your account to premium and get exclusive benefits.</p>
+          <div class="actions">
+            <!-- <button>Upgrade</button> -->
+            <!-- <button class="mark-as-read">Mark as Read</button> -->
+            <!-- <button class="remind-later">Remind Me Later</button> -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script>
+    const notifications = document.querySelectorAll('.notification');
+
+    notifications.forEach(notification => {
+      const markAsReadBtn = notification.querySelector('.mark-as-read');
+
+      markAsReadBtn.addEventListener('click', () => {
+        notification.classList.remove('unread');
+      });
+
+    });
+  </script>
+</body>
+</html>
