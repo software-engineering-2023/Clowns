@@ -1,0 +1,86 @@
+:root{
+    background-color: #8BC6EC;
+    background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
+               }
+
+
+
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #fafafa;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #333333;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  
+  h1 {
+    margin: 0;
+    color: #f8f8f8;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  thead {
+    background-color: #f0f0f0;
+  }
+  
+  th {
+    padding: 10px;
+    text-align: left;
+    font-weight: bold;
+    border-bottom: 1px solid #cccccc;
+  }
+  
+  td {
+    padding: 10px;
+    border-bottom: 1px solid #cccccc;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  tr:hover {
+    background-color: #eaeaea;
+  }
+  
+  /* Additional Styles */
+  a {
+    color: #337ab7;
+    text-decoration: none;
+  }
+  
+  button {
+    padding: 5px 10px;
+    background-color: #337ab7;
+    color: #ffffff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #286090;
+  }
+  
+  button:active {
+    background-color: #204d74;
+  }
