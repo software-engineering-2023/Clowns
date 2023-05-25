@@ -1,0 +1,835 @@
+.bills-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.bills-bills {
+  width: 100%;
+  height: 2461px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: #181818;
+}
+.bills-page2 {
+  top: 48px;
+  left: -206px;
+  width: 1912px;
+  height: 2035px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.bills-blending1684602980273 {
+  top: 0px;
+  left: 0px;
+  width: 1912px;
+  height: 2035px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.bills-vector1 {
+  top: 0px;
+  left: 0px;
+  width: 1912px;
+  height: 1113px;
+  position: absolute;
+}
+.bills-vector2 {
+  top: 1006px;
+  left: 135px;
+  width: 1740px;
+  height: 1029px;
+  position: absolute;
+}
+.bills-vector-vector224 {
+  top: 24.5361328125px;
+  left: 3.292694091796875px;
+  width: 1908px;
+  height: 1111px;
+  position: absolute;
+}
+.bills-vector-vector249 {
+  top: 49.0732421875px;
+  left: 6.585357666015625px;
+  width: 1904px;
+  height: 1109px;
+  position: absolute;
+}
+.bills-vector-vector273 {
+  top: 73.609375px;
+  left: 9.8780517578125px;
+  width: 1899px;
+  height: 1107px;
+  position: absolute;
+}
+.bills-vector-vector298 {
+  top: 98.146484375px;
+  left: 13.170745849609375px;
+  width: 1895px;
+  height: 1105px;
+  position: absolute;
+}
+.bills-vector-vector2122 {
+  top: 122.6826171875px;
+  left: 16.463409423828125px;
+  width: 1891px;
+  height: 1103px;
+  position: absolute;
+}
+.bills-vector-vector2146 {
+  top: 147.2197265625px;
+  left: 19.756103515625px;
+  width: 1887px;
+  height: 1101px;
+  position: absolute;
+}
+.bills-vector-vector2171 {
+  top: 171.755859375px;
+  left: 23.04876708984375px;
+  width: 1883px;
+  height: 1099px;
+  position: absolute;
+}
+.bills-vector-vector2195 {
+  top: 196.29296875px;
+  left: 26.341461181640625px;
+  width: 1878px;
+  height: 1097px;
+  position: absolute;
+}
+.bills-vector-vector2220 {
+  top: 220.8291015625px;
+  left: 29.6341552734375px;
+  width: 1874px;
+  height: 1095px;
+  position: absolute;
+}
+.bills-vector-vector2244 {
+  top: 245.3662109375px;
+  left: 32.92681884765625px;
+  width: 1870px;
+  height: 1093px;
+  position: absolute;
+}
+.bills-vector-vector2268 {
+  top: 269.90234375px;
+  left: 36.219512939453125px;
+  width: 1866px;
+  height: 1090px;
+  position: absolute;
+}
+.bills-vector-vector2293 {
+  top: 294.439453125px;
+  left: 39.51220703125px;
+  width: 1862px;
+  height: 1088px;
+  position: absolute;
+}
+.bills-vector-vector2317 {
+  top: 318.9755859375px;
+  left: 42.80487060546875px;
+  width: 1857px;
+  height: 1086px;
+  position: absolute;
+}
+.bills-vector-vector2341 {
+  top: 343.51171875px;
+  left: 46.097564697265625px;
+  width: 1853px;
+  height: 1084px;
+  position: absolute;
+}
+.bills-vector-vector2366 {
+  top: 368.048828125px;
+  left: 49.3902587890625px;
+  width: 1849px;
+  height: 1082px;
+  position: absolute;
+}
+.bills-vector-vector2390 {
+  top: 392.5849609375px;
+  left: 52.68292236328125px;
+  width: 1845px;
+  height: 1080px;
+  position: absolute;
+}
+.bills-vector-vector2415 {
+  top: 417.1220703125px;
+  left: 55.975616455078125px;
+  width: 1841px;
+  height: 1078px;
+  position: absolute;
+}
+.bills-vector-vector2439 {
+  top: 441.658203125px;
+  left: 59.268280029296875px;
+  width: 1836px;
+  height: 1076px;
+  position: absolute;
+}
+.bills-vector-vector2463 {
+  top: 466.1953125px;
+  left: 62.56097412109375px;
+  width: 1832px;
+  height: 1074px;
+  position: absolute;
+}
+.bills-vector-vector2488 {
+  top: 490.7314453125px;
+  left: 65.85366821289062px;
+  width: 1828px;
+  height: 1072px;
+  position: absolute;
+}
+.bills-vector-vector2512 {
+  top: 515.2685546875px;
+  left: 69.14633178710938px;
+  width: 1824px;
+  height: 1070px;
+  position: absolute;
+}
+.bills-vector-vector2537 {
+  top: 539.8046875px;
+  left: 72.43902587890625px;
+  width: 1820px;
+  height: 1068px;
+  position: absolute;
+}
+.bills-vector-vector2561 {
+  top: 564.341796875px;
+  left: 75.73171997070312px;
+  width: 1816px;
+  height: 1066px;
+  position: absolute;
+}
+.bills-vector-vector2585 {
+  top: 588.8779296875px;
+  left: 79.02438354492188px;
+  width: 1811px;
+  height: 1064px;
+  position: absolute;
+}
+.bills-vector-vector2610 {
+  top: 613.4150390625px;
+  left: 82.31707763671875px;
+  width: 1807px;
+  height: 1062px;
+  position: absolute;
+}
+.bills-vector-vector2634 {
+  top: 637.951171875px;
+  left: 85.6097412109375px;
+  width: 1803px;
+  height: 1060px;
+  position: absolute;
+}
+.bills-vector-vector2659 {
+  top: 662.48828125px;
+  left: 88.9024658203125px;
+  width: 1799px;
+  height: 1058px;
+  position: absolute;
+}
+.bills-vector-vector2683 {
+  top: 687.0244140625px;
+  left: 92.19512939453125px;
+  width: 1795px;
+  height: 1056px;
+  position: absolute;
+}
+.bills-vector-vector2707 {
+  top: 711.560546875px;
+  left: 95.48779296875px;
+  width: 1790px;
+  height: 1054px;
+  position: absolute;
+}
+.bills-vector-vector2732 {
+  top: 736.09765625px;
+  left: 98.780517578125px;
+  width: 1786px;
+  height: 1052px;
+  position: absolute;
+}
+.bills-vector-vector2756 {
+  top: 760.6337890625px;
+  left: 102.07318115234375px;
+  width: 1782px;
+  height: 1049px;
+  position: absolute;
+}
+.bills-vector-vector2780 {
+  top: 785.1708984375px;
+  left: 105.3658447265625px;
+  width: 1778px;
+  height: 1047px;
+  position: absolute;
+}
+.bills-vector-vector2805 {
+  top: 809.70703125px;
+  left: 108.65850830078125px;
+  width: 1774px;
+  height: 1045px;
+  position: absolute;
+}
+.bills-vector-vector2829 {
+  top: 834.244140625px;
+  left: 111.95123291015625px;
+  width: 1769px;
+  height: 1043px;
+  position: absolute;
+}
+.bills-vector-vector2854 {
+  top: 858.7802734375px;
+  left: 115.243896484375px;
+  width: 1765px;
+  height: 1041px;
+  position: absolute;
+}
+.bills-vector-vector2878 {
+  top: 883.3173828125px;
+  left: 118.53656005859375px;
+  width: 1761px;
+  height: 1039px;
+  position: absolute;
+}
+.bills-vector-vector2902 {
+  top: 907.853515625px;
+  left: 121.82928466796875px;
+  width: 1757px;
+  height: 1037px;
+  position: absolute;
+}
+.bills-vector-vector2927 {
+  top: 932.390625px;
+  left: 125.1219482421875px;
+  width: 1753px;
+  height: 1035px;
+  position: absolute;
+}
+.bills-vector-vector2951 {
+  top: 956.9267578125px;
+  left: 128.41461181640625px;
+  width: 1748px;
+  height: 1033px;
+  position: absolute;
+}
+.bills-vector-vector2976 {
+  top: 981.4638671875px;
+  left: 131.70733642578125px;
+  width: 1744px;
+  height: 1031px;
+  position: absolute;
+}
+.bills-availableon {
+  gap: 10px;
+  top: 1698px;
+  left: 1271px;
+  display: flex;
+  padding: 10px;
+  position: absolute;
+  align-items: flex-start;
+}
+.bills-text {
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  font-size: 40px;
+  font-style: Regular;
+  text-align: center;
+  font-family: GetVoIP Grotesque;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.bills-appstore {
+  top: 1758px;
+  left: 1254px;
+  width: 244px;
+  height: 84px;
+  position: absolute;
+}
+.bills-google-play {
+  top: 1833px;
+  left: 1271px;
+  width: 244px;
+  height: 84px;
+  position: absolute;
+}
+.bills-text02 {
+  top: 2003px;
+  left: 435px;
+  color: rgba(242, 240, 239, 1);
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Michroma;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.bills-bottom {
+  top: 1971px;
+  left: 0px;
+  width: 1543px;
+  height: 490px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.bills-rectangle10 {
+  top: 10px;
+  left: 0px;
+  width: 1543px;
+  height: 480px;
+  position: absolute;
+}
+.bills-clownslogo {
+  top: 0px;
+  left: 93px;
+  width: 280px;
+  height: 195px;
+  position: absolute;
+}
+.bills-availableon1 {
+  gap: 10px;
+  top: 157px;
+  left: 95px;
+  width: 253px;
+  height: 42px;
+  display: flex;
+  padding: 10px;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.bills-text04 {
+  color: rgba(242, 240, 239, 1);
+  height: auto;
+  font-size: 32px;
+  font-style: Regular;
+  text-align: center;
+  font-family: GetVoIP Grotesque;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.bills-availableon2 {
+  gap: 10px;
+  top: 67px;
+  left: 425px;
+  width: 132px;
+  height: 42px;
+  display: flex;
+  padding: 10px;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.bills-text06 {
+  color: rgba(242, 240, 239, 1);
+  height: auto;
+  font-size: 26px;
+  font-style: Regular;
+  text-align: center;
+  font-family: GetVoIP Grotesque;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.bills-availableon3 {
+  gap: 10px;
+  top: 67px;
+  left: 676px;
+  width: 132px;
+  height: 42px;
+  display: flex;
+  padding: 10px;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.bills-text08 {
+  color: rgba(242, 240, 239, 1);
+  height: auto;
+  font-size: 26px;
+  font-style: Regular;
+  text-align: center;
+  font-family: GetVoIP Grotesque;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.bills-availableon4 {
+  gap: 10px;
+  top: 67px;
+  left: 923px;
+  width: 132px;
+  height: 42px;
+  display: flex;
+  padding: 10px;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.bills-text10 {
+  color: rgba(242, 240, 239, 1);
+  height: auto;
+  font-size: 26px;
+  font-style: Regular;
+  text-align: center;
+  font-family: GetVoIP Grotesque;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.bills-availableon5 {
+  gap: 10px;
+  top: 67px;
+  left: 1177px;
+  width: 132px;
+  height: 42px;
+  display: flex;
+  padding: 10px;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.bills-text12 {
+  color: rgba(242, 240, 239, 1);
+  height: auto;
+  font-size: 26px;
+  font-style: Regular;
+  text-align: center;
+  font-family: GetVoIP Grotesque;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.bills-text14 {
+  top: 137px;
+  left: 685px;
+  color: rgba(242, 240, 239, 1);
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Michroma;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.bills-text16 {
+  top: 138px;
+  left: 931px;
+  color: rgba(242, 240, 239, 1);
+  width: 165px;
+  height: auto;
+  position: absolute;
+  font-size: 18px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Michroma;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.bills-text18 {
+  top: 141px;
+  left: 1177px;
+  color: rgba(242, 240, 239, 1);
+  width: 204px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Michroma;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.bills-text20 {
+  top: 191px;
+  left: 1177px;
+  color: rgba(242, 240, 239, 1);
+  width: 204px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Michroma;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.bills-text22 {
+  top: 193px;
+  left: 896px;
+  color: rgba(242, 240, 239, 1);
+  width: 235px;
+  height: auto;
+  position: absolute;
+  font-size: 18px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Michroma;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.bills-text24 {
+  top: 137px;
+  left: 435px;
+  color: rgba(242, 240, 239, 1);
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Michroma;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.bills-text26 {
+  top: 197px;
+  left: 435px;
+  color: rgba(242, 240, 239, 1);
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Michroma;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.bills-text28 {
+  top: 197px;
+  left: 685px;
+  color: rgba(242, 240, 239, 1);
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Michroma;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.bills-text30 {
+  top: 257px;
+  left: 685px;
+  color: rgba(242, 240, 239, 1);
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Michroma;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.bills-text32 {
+  top: 257px;
+  left: 435px;
+  color: rgba(242, 240, 239, 1);
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Michroma;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.bills-appstore1 {
+  top: 205px;
+  left: 93px;
+  width: 203px;
+  height: 70px;
+  position: absolute;
+}
+.bills-google-play1 {
+  top: 268px;
+  left: 107px;
+  width: 203px;
+  height: 69px;
+  position: absolute;
+}
+.bills-clownsdarkclipdropenhanceremovebgpreview2 {
+  top: 0px;
+  left: 30px;
+  width: 280px;
+  height: 195px;
+  position: absolute;
+}
+.bills-istockphoto638815292612x6121 {
+  top: 452px;
+  left: 845px;
+  width: 665px;
+  height: 445px;
+  position: absolute;
+  border-radius: 3px;
+}
+.bills-text34 {
+  top: 565px;
+  left: 63px;
+  color: rgb(184, 33, 33);
+  width: 684px;
+  height: auto;
+  position: absolute;
+  font-size: 36px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Michroma;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.bills-text35 {
+  color: var(--dl-color-gray-white);
+}
+.bills-text37 {
+  top: 171px;
+  left: 429px;
+  color: var(--dl-color-gray-white);
+  width: 684px;
+  height: auto;
+  position: absolute;
+  font-size: 36px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Michroma;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.bills-text38 {
+  top: 686px;
+  left: 57px;
+  color: rgba(255, 255, 255, 1);
+  width: 690px;
+  height: auto;
+  position: absolute;
+  font-size: 30px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Michroma;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.bills-text43 {
+  top: 773px;
+  left: 248px;
+  color: rgba(117, 105, 255, 1);
+  width: 97px;
+  height: auto;
+  position: absolute;
+  font-size: 30px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Michroma;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: underline;
+}
+.bills-text-color {
+  color: rgba(117, 105, 255, 1);
+}
+.bills-paymentgatewayintegration1 {
+  top: 1061px;
+  left: 49px;
+  width: 731px;
+  height: 382px;
+  position: absolute;
+  border-radius: 3px;
+}
+.bills-text45 {
+  top: 1081px;
+  left: 855px;
+  color: var(--dl-color-gray-white);
+  width: 633px;
+  height: auto;
+  position: absolute;
+  font-size: 36px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Michroma;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.bills-apply {
+  gap: 10px;
+  top: 1308px;
+  left: 1075px;
+  width: 239px;
+  display: flex;
+  padding: 10px 10px 15px 10px;
+  position: absolute;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: rgba(255, 255, 255, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 20px;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.4000000059604645);
+}
+.bills-text-pay {
+  color: white;
+}
+.bills-text46 {
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  font-size: 40px;
+  font-style: Regular;
+  text-align: left;
+  font-family: GetVoIP Grotesque;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
