@@ -63,24 +63,32 @@
   }
   
   /* Additional Styles */
-  a {
-    color: #337ab7;
-    text-decoration: none;
+  a.button-link {
+    text-decoration:none;
   }
   
   button {
-    padding: 5px 10px;
-    background-color: #337ab7;
-    color: #ffffff;
+    background-color: #4CAF50;
+    color: #fff;
     border: none;
-    border-radius: 3px;
+    padding: 10px 20px;
     cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    display: block;
+    margin: 0 auto;
   }
   
   button:hover {
-    background-color: #286090;
+    background-color: #45a049;
+    transform: scale(1.05);
   }
   
-  button:active {
-    background-color: #204d74;
+  .button:focus {
+    outline: auto;
   }
+  
+  .button-container {
+    display: inline-block;
+    margin-right: 25px;
+  }
+  

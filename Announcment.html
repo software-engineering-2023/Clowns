@@ -125,10 +125,18 @@
     
     <br>
     <br>
-    <a href="DoneAnnouncment.html">
-      <button>
-        Send Announcment
-      </button>
+    <h1>Create new Announcment</h1>
+    
+    <button onclick="printStatement()">Create Announcemnt</button>
+    
+    <p id="output"></p>
+    
+    <script>
+      function printStatement() {
+        var outputElement = document.getElementById("output");
+        outputElement.textContent = "Announcment Created ";
+      }
+    </script>
     </a>
     <label for="myInput">create Announcment:</label>
     <input type="text" id="myInput">
