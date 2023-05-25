@@ -789,10 +789,10 @@
   border-width: 1px;
   border-radius: 20px;
   justify-content: center;
-  background-color: rgba(0, 0, 0, 0.4000000059604645);
+  background-color: white;
 }
 .credit-card-apply2-text48 {
-  color: rgba(255, 255, 255, 1);
+  color: black;
   height: auto;
   font-size: 36px;
   font-style: Regular;
@@ -819,7 +819,17 @@
   border-width: 1px;
   border-radius: 20px;
   justify-content: center;
-  background-color: rgba(0, 0, 0, 0.4000000059604645);
+  background-color: white;
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  font-size: 36px;
+  font-style: Regular;
+  text-align: left;
+  font-family: GetVoIP Grotesque;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
 }
 .credit-card-apply2-text50 {
   color: rgba(255, 255, 255, 1);
@@ -926,6 +936,7 @@
   line-height: normal;
   font-stretch: normal;
   text-decoration: none;
+  
 }
 .credit-card-apply2-placeholder-text1 {
   top: 32px;
@@ -1073,4 +1084,7 @@
   font-size: 12px;
 }
 
-
+.checks{
+  background-color: black;
+  width: 5% auto;
+}

@@ -716,10 +716,10 @@
   border-width: 1px;
   border-radius: 20px;
   justify-content: center;
-  background-color: rgba(0, 0, 0, 0.4000000059604645);
+  background-color: white;
 }
 .credit-card-applied-text34 {
-  color: rgba(255, 255, 255, 1);
+  color: black;
   height: auto;
   font-size: 36px;
   font-style: Regular;

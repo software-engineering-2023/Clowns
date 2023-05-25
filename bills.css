@@ -774,6 +774,9 @@
   font-stretch: normal;
   text-decoration: underline;
 }
+.bills-text-color {
+  color: rgba(117, 105, 255, 1);
+}
 .bills-paymentgatewayintegration1 {
   top: 1061px;
   left: 49px;
@@ -814,6 +817,9 @@
   border-radius: 20px;
   justify-content: center;
   background-color: rgba(0, 0, 0, 0.4000000059604645);
+}
+.bills-text-pay {
+  color: white;
 }
 .bills-text46 {
   color: rgba(255, 255, 255, 1);

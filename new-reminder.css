@@ -922,10 +922,26 @@
   text-decoration: none;
 }
 .new-reminder-text55 {
-  top: 593px;
+  top: 745px;
   left: 507px;
   color: #586167;
-  width: 636px;
+  width: 400px;
+  height: auto;
+  position: absolute;
+  font-size: 14px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Michroma;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.new-reminder-text56{
+  top: 890px;
+  left: 507px;
+  color: #586167;
+  width: 400px;
   height: auto;
   position: absolute;
   font-size: 14px;
