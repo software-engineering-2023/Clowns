@@ -8,41 +8,31 @@
 }
 .creditcard-creditcard {
   width: 100%;
-  height: 4815px;
+  height: 5866px;
   display: flex;
   overflow: hidden;
   position: relative;
   align-items: flex-start;
   flex-shrink: 0;
-  background-color: rgba(30, 30, 30, 1);
-}
-.creditcard-page1 {
-  top: 0px;
-  left: 18px;
-  width: 1530.5px;
-  height: 2720.890380859375px;
-  display: flex;
-  position: absolute;
-  align-items: flex-start;
-  flex-shrink: 1;
+  background-color: #181818;
 }
 .creditcard-line1 {
   top: 291px;
-  left: 18px;
+  left: 36px;
   width: 1477px;
   height: 1px;
   position: absolute;
 }
 .creditcard-clownsdarkclipdropenhanceremovebgpreview1 {
   top: 0px;
-  left: 75px;
+  left: 93px;
   width: 280px;
   height: 195px;
   position: absolute;
 }
 .creditcard-text {
   top: 240px;
-  left: 50px;
+  left: 68px;
   color: rgba(255, 255, 255, 1);
   width: 314px;
   height: auto;
@@ -55,400 +45,6 @@
   line-height: normal;
   font-stretch: normal;
   text-decoration: none;
-}
-.creditcard-blending1684526607723 {
-  top: 405px;
-  left: 107px;
-  width: 1369.3524169921875px;
-  height: 748.445556640625px;
-  display: flex;
-  position: absolute;
-  align-items: flex-start;
-  flex-shrink: 1;
-}
-.creditcard-rectangle1 {
-  top: 109.35237121582031px;
-  left: 0px;
-  width: 528px;
-  height: 528px;
-  position: absolute;
-  border-color: rgba(0, 0, 0, 1);
-  border-style: solid;
-  border-width: 5px;
-}
-.creditcard-rectangle2 {
-  top: 373.3523864746094px;
-  left: 622.6476440429688px;
-  width: 528px;
-  height: 528px;
-  position: absolute;
-  border-color: rgba(255, 255, 255, 1);
-  border-style: solid;
-  border-width: 5px;
-}
-.creditcard-rectangle-rectangle248 {
-  top: 121.92366027832031px;
-  left: 29.64990234375px;
-  width: 528px;
-  height: 528px;
-  position: absolute;
-  border-color: rgba(12, 12, 12, 1);
-  border-style: solid;
-  border-width: 5px;
-}
-.creditcard-rectangle-rectangle295 {
-  top: 134.4949493408203px;
-  left: 59.2998046875px;
-  width: 528px;
-  height: 528px;
-  position: absolute;
-  border-color: rgba(24, 24, 24, 1);
-  border-style: solid;
-  border-width: 5px;
-}
-.creditcard-rectangle-rectangle2143 {
-  top: 147.0662384033203px;
-  left: 88.94970703125px;
-  width: 528px;
-  height: 528px;
-  position: absolute;
-  border-color: rgba(36, 36, 36, 1);
-  border-style: solid;
-  border-width: 5px;
-}
-.creditcard-rectangle-rectangle2190 {
-  top: 159.6385040283203px;
-  left: 118.599609375px;
-  width: 528px;
-  height: 528px;
-  position: absolute;
-  border-color: rgba(48, 48, 48, 1);
-  border-style: solid;
-  border-width: 5px;
-}
-.creditcard-rectangle-rectangle2238 {
-  top: 172.2097930908203px;
-  left: 148.24945068359375px;
-  width: 528px;
-  height: 528px;
-  position: absolute;
-  border-color: rgba(60, 60, 60, 1);
-  border-style: solid;
-  border-width: 5px;
-}
-.creditcard-rectangle-rectangle2286 {
-  top: 184.7810821533203px;
-  left: 177.89935302734375px;
-  width: 528px;
-  height: 528px;
-  position: absolute;
-  border-color: rgba(72, 72, 72, 1);
-  border-style: solid;
-  border-width: 5px;
-}
-.creditcard-rectangle-rectangle2333 {
-  top: 197.3523712158203px;
-  left: 207.5491943359375px;
-  width: 528px;
-  height: 528px;
-  position: absolute;
-  border-color: rgba(85, 85, 85, 1);
-  border-style: solid;
-  border-width: 5px;
-}
-.creditcard-rectangle-rectangle2381 {
-  top: 209.9236602783203px;
-  left: 237.1990966796875px;
-  width: 528px;
-  height: 528px;
-  position: absolute;
-  border-color: rgba(97, 97, 97, 1);
-  border-style: solid;
-  border-width: 5px;
-}
-.creditcard-rectangle-rectangle2429 {
-  top: 222.4949493408203px;
-  left: 266.8489990234375px;
-  width: 528px;
-  height: 528px;
-  position: absolute;
-  border-color: rgba(109, 109, 109, 1);
-  border-style: solid;
-  border-width: 5px;
-}
-.creditcard-rectangle-rectangle2476 {
-  top: 235.0662384033203px;
-  left: 296.4989013671875px;
-  width: 528px;
-  height: 528px;
-  position: absolute;
-  border-color: rgba(121, 121, 121, 1);
-  border-style: solid;
-  border-width: 5px;
-}
-.creditcard-rectangle-rectangle2524 {
-  top: 247.6385040283203px;
-  left: 326.14874267578125px;
-  width: 528px;
-  height: 528px;
-  position: absolute;
-  border-color: rgba(133, 133, 133, 1);
-  border-style: solid;
-  border-width: 5px;
-}
-.creditcard-rectangle-rectangle2571 {
-  top: 260.2098083496094px;
-  left: 355.79864501953125px;
-  width: 528px;
-  height: 528px;
-  position: absolute;
-  border-color: rgba(145, 145, 145, 1);
-  border-style: solid;
-  border-width: 5px;
-}
-.creditcard-rectangle-rectangle2619 {
-  top: 272.7810974121094px;
-  left: 385.44854736328125px;
-  width: 528px;
-  height: 528px;
-  position: absolute;
-  border-color: rgba(157, 157, 157, 1);
-  border-style: solid;
-  border-width: 5px;
-}
-.creditcard-rectangle-rectangle2667 {
-  top: 285.3523864746094px;
-  left: 415.09844970703125px;
-  width: 528px;
-  height: 528px;
-  position: absolute;
-  border-color: rgba(170, 170, 170, 1);
-  border-style: solid;
-  border-width: 5px;
-}
-.creditcard-rectangle-rectangle2714 {
-  top: 297.9236755371094px;
-  left: 444.748291015625px;
-  width: 528px;
-  height: 528px;
-  position: absolute;
-  border-color: rgba(182, 182, 182, 1);
-  border-style: solid;
-  border-width: 5px;
-}
-.creditcard-rectangle-rectangle2762 {
-  top: 310.4949645996094px;
-  left: 474.398193359375px;
-  width: 528px;
-  height: 528px;
-  position: absolute;
-  border-color: rgba(194, 194, 194, 1);
-  border-style: solid;
-  border-width: 5px;
-}
-.creditcard-rectangle-rectangle2810 {
-  top: 323.0662536621094px;
-  left: 504.048095703125px;
-  width: 528px;
-  height: 528px;
-  position: absolute;
-  border-color: rgba(206, 206, 206, 1);
-  border-style: solid;
-  border-width: 5px;
-}
-.creditcard-rectangle-rectangle2857 {
-  top: 335.6385192871094px;
-  left: 533.697998046875px;
-  width: 528px;
-  height: 528px;
-  position: absolute;
-  border-color: rgba(218, 218, 218, 1);
-  border-style: solid;
-  border-width: 5px;
-}
-.creditcard-rectangle-rectangle2905 {
-  top: 348.2098083496094px;
-  left: 563.3478393554688px;
-  width: 528px;
-  height: 528px;
-  position: absolute;
-  border-color: rgba(230, 230, 230, 1);
-  border-style: solid;
-  border-width: 5px;
-}
-.creditcard-rectangle-rectangle2952 {
-  top: 360.78125px;
-  left: 592.9977416992188px;
-  width: 528px;
-  height: 528px;
-  position: absolute;
-  border-color: rgba(242, 242, 242, 1);
-  border-style: solid;
-  border-width: 5px;
-}
-.creditcard-blending1685013093053 {
-  top: 1057.1103515625px;
-  left: 0px;
-  width: 1530.5px;
-  height: 1663.780029296875px;
-  display: flex;
-  position: absolute;
-  align-items: flex-start;
-  flex-shrink: 1;
-}
-.creditcard-vector3 {
-  top: 0px;
-  left: 0px;
-  width: 1530px;
-  height: 597px;
-  position: absolute;
-}
-.creditcard-vector4 {
-  top: 1066.8896484375px;
-  left: 0px;
-  width: 1530px;
-  height: 597px;
-  position: absolute;
-}
-.creditcard-vector-vector448 {
-  top: 50.8046875px;
-  left: 0px;
-  width: 1530px;
-  height: 597px;
-  position: absolute;
-}
-.creditcard-vector-vector495 {
-  top: 101.6083984375px;
-  left: 0px;
-  width: 1530px;
-  height: 597px;
-  position: absolute;
-}
-.creditcard-vector-vector4143 {
-  top: 152.4130859375px;
-  left: 0px;
-  width: 1530px;
-  height: 597px;
-  position: absolute;
-}
-.creditcard-vector-vector4190 {
-  top: 203.216796875px;
-  left: 0px;
-  width: 1530px;
-  height: 597px;
-  position: absolute;
-}
-.creditcard-vector-vector4238 {
-  top: 254.021484375px;
-  left: 0px;
-  width: 1530px;
-  height: 597px;
-  position: absolute;
-}
-.creditcard-vector-vector4286 {
-  top: 304.8251953125px;
-  left: 0px;
-  width: 1530px;
-  height: 597px;
-  position: absolute;
-}
-.creditcard-vector-vector4333 {
-  top: 355.6298828125px;
-  left: 0px;
-  width: 1530px;
-  height: 597px;
-  position: absolute;
-}
-.creditcard-vector-vector4381 {
-  top: 406.4345703125px;
-  left: 0px;
-  width: 1530px;
-  height: 597px;
-  position: absolute;
-}
-.creditcard-vector-vector4429 {
-  top: 457.23828125px;
-  left: 0px;
-  width: 1530px;
-  height: 597px;
-  position: absolute;
-}
-.creditcard-vector-vector4476 {
-  top: 508.04296875px;
-  left: 0px;
-  width: 1530px;
-  height: 597px;
-  position: absolute;
-}
-.creditcard-vector-vector4524 {
-  top: 558.8466796875px;
-  left: 0px;
-  width: 1530px;
-  height: 597px;
-  position: absolute;
-}
-.creditcard-vector-vector4571 {
-  top: 609.6513671875px;
-  left: 0px;
-  width: 1530px;
-  height: 597px;
-  position: absolute;
-}
-.creditcard-vector-vector4619 {
-  top: 660.455078125px;
-  left: 0px;
-  width: 1530px;
-  height: 597px;
-  position: absolute;
-}
-.creditcard-vector-vector4667 {
-  top: 711.259765625px;
-  left: 0px;
-  width: 1530px;
-  height: 597px;
-  position: absolute;
-}
-.creditcard-vector-vector4714 {
-  top: 762.064453125px;
-  left: 0px;
-  width: 1530px;
-  height: 597px;
-  position: absolute;
-}
-.creditcard-vector-vector4762 {
-  top: 812.8681640625px;
-  left: 0px;
-  width: 1530px;
-  height: 597px;
-  position: absolute;
-}
-.creditcard-vector-vector4810 {
-  top: 863.6728515625px;
-  left: 0px;
-  width: 1530px;
-  height: 597px;
-  position: absolute;
-}
-.creditcard-vector-vector4857 {
-  top: 914.4765625px;
-  left: 0px;
-  width: 1530px;
-  height: 597px;
-  position: absolute;
-}
-.creditcard-vector-vector4905 {
-  top: 965.28125px;
-  left: 0px;
-  width: 1530px;
-  height: 597px;
-  position: absolute;
-}
-.creditcard-vector-vector4952 {
-  top: 1016.0849609375px;
-  left: 0px;
-  width: 1530px;
-  height: 597px;
-  position: absolute;
 }
 .creditcard-page2 {
   top: 2525px;
@@ -1399,7 +995,7 @@
   position: absolute;
 }
 .creditcard-group10 {
-  top: 4335px;
+  top: 5386px;
   left: -5px;
   width: 1559px;
   height: 480px;
@@ -1726,9 +1322,9 @@
   height: 69px;
   position: absolute;
 }
-.creditcard-apply {
+.creditcard-applybutton {
   gap: 10px;
-  top: 2615px;
+  top: 2672px;
   left: 652px;
   width: 239px;
   display: flex;
@@ -1755,16 +1351,65 @@
   font-stretch: normal;
   text-decoration: none;
 }
+.creditcard-screenshot20230526at7181 {
+  top: 294px;
+  left: 148px;
+  width: 1365px;
+  height: 763px;
+  position: absolute;
+}
+.creditcard-component-variant4 {
+  gap: 10px;
+  top: 660px;
+  left: 93px;
+  width: 730px;
+  display: flex;
+  padding: 8px 23px;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  border-color: rgba(255, 255, 255, 0);
+  border-style: solid;
+  border-width: 10px;
+  background-color: rgba(0, 0, 0, 0.30000001192092896);
+}
+.creditcard-text085 {
+  color: var(--dl-color-gray-white);
+  width: 684px;
+  height: auto;
+  font-size: 40px;
+  font-style: Regular;
+  text-align: left;
+  font-family: GetVoIP Grotesque;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
 .creditcard-image1removebgpreview21 {
-  top: 507px;
-  left: 844px;
+  top: 407px;
+  left: 872px;
   width: 546px;
   height: 457px;
   position: absolute;
 }
-.creditcard-component-variant4 {
-  top: 779px;
-  left: 153px;
+.creditcard-screenshot20230526at7201 {
+  top: 1061px;
+  left: -16px;
+  width: 1568px;
+  height: 1709px;
+  position: absolute;
+}
+.creditcard-image2removebgpreview21 {
+  top: 1203px;
+  left: 93px;
+  width: 546px;
+  height: 457px;
+  position: absolute;
+}
+.creditcard-clownsgold {
+  top: 1301px;
+  left: 750px;
   width: 737px;
   height: 362px;
   display: flex;
@@ -1782,46 +1427,11 @@
   border-style: solid;
   border-width: 10px;
 }
-.creditcard-text085 {
+.creditcard-text090 {
   top: 19px;
   left: 23px;
-  color: var(--dl-color-gray-900);
+  color: rgba(184, 33, 33, 0);
   width: 684px;
-  height: auto;
-  position: absolute;
-  font-size: 40px;
-  font-style: Regular;
-  text-align: left;
-  font-family: GetVoIP Grotesque;
-  font-weight: 400;
-  line-height: normal;
-  font-stretch: normal;
-  text-decoration: none;
-}
-.creditcard-component-variant41 {
-  top: 779px;
-  left: 153px;
-  width: 737px;
-  height: 362px;
-  display: flex;
-  position: absolute;
-  align-items: flex-start;
-  flex-shrink: 0;
-}
-.creditcard-rectangle31 {
-  right: -563px;
-  width: 737px;
-  bottom: -692px;
-  height: 362px;
-  position: absolute;
-  border-color: rgba(255, 255, 255, 0);
-  border-style: solid;
-  border-width: 10px;
-}
-.creditcard-text090 {
-  right: -554px;
-  width: 684px;
-  bottom: -632px;
   height: auto;
   position: absolute;
   font-size: 40px;
@@ -1834,48 +1444,19 @@
   text-decoration: none;
 }
 .creditcard-text091 {
-  color: var(--dl-color-gray-900);
+  color: var(--dl-color-gray-white);
 }
 .creditcard-text092 {
-  color: #d4b700;
+  color: var(--dl-color-gray-white);
 }
 .creditcard-text093 {
-  color: var(--dl-color-gray-900);
-}
-.creditcard-text094 {
-  color: var(--dl-color-gray-900);
+  color: var(--dl-color-gray-white);
 }
 .creditcard-text095 {
-  color: var(--dl-color-gray-900);
-}
-.creditcard-text096 {
-  color: var(--dl-color-gray-900);
-}
-.creditcard-component-variant42 {
-  top: 1373px;
-  left: -302px;
-  width: 737px;
-  height: 362px;
-  display: flex;
-  position: absolute;
-  align-items: flex-start;
-  flex-shrink: 0;
-}
-.creditcard-rectangle32 {
-  right: -366px;
-  width: 737px;
-  bottom: -562px;
-  height: 362px;
-  position: absolute;
-  border-color: rgba(255, 255, 255, 0);
-  border-style: solid;
-  border-width: 10px;
-}
-.creditcard-text097 {
-  color: var(--dl-color-gray-900);
-  right: -374px;
-  width: 684px;
-  bottom: -493px;
+  top: 19px;
+  left: 23px;
+  color: rgba(255, 255, 255, 1);
+  width: 213px;
   height: auto;
   position: absolute;
   font-size: 40px;
@@ -1887,17 +1468,236 @@
   font-stretch: normal;
   text-decoration: none;
 }
-.creditcard-image2removebgpreview21 {
-  top: 1330px;
-  left: 148px;
-  width: 546px;
-  height: 457px;
+.creditcard-text097 {
+  top: 14px;
+  left: 351px;
+  color: rgba(255, 255, 255, 1);
+  width: 76px;
+  height: auto;
   position: absolute;
+  font-size: 40px;
+  font-style: Regular;
+  text-align: left;
+  font-family: GetVoIP Grotesque;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.creditcard-text098 {
+  top: 19px;
+  left: 206px;
+  color: #dcbc74;
+  width: 145px;
+  height: auto;
+  position: absolute;
+  font-size: 40px;
+  font-style: Regular;
+  text-align: left;
+  font-family: GetVoIP Grotesque;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
 }
 .creditcard-image3removebgpreview21 {
-  top: 1830px;
-  right: 44px;
+  top: 1736px;
+  left: 841px;
   width: 702px;
   height: 588px;
   position: absolute;
+}
+.creditcard-component-variant41 {
+  top: 1987px;
+  left: 116px;
+  width: 737px;
+  height: 362px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.creditcard-clownsgold1 {
+  top: 0px;
+  left: 0px;
+  width: 737px;
+  height: 362px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.creditcard-rectangle31 {
+  top: 0px;
+  left: 0px;
+  width: 737px;
+  height: 362px;
+  position: absolute;
+  border-color: rgba(255, 255, 255, 0);
+  border-style: solid;
+  border-width: 10px;
+}
+.creditcard-text100 {
+  top: 19px;
+  left: 23px;
+  color: var(--dl-color-gray-white);
+  width: 684px;
+  height: auto;
+  position: absolute;
+  font-size: 40px;
+  font-style: Regular;
+  text-align: left;
+  font-family: GetVoIP Grotesque;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.creditcard-text104 {
+  top: 19px;
+  left: 23px;
+  color: rgba(255, 255, 255, 1);
+  width: 213px;
+  height: auto;
+  position: absolute;
+  font-size: 40px;
+  font-style: Regular;
+  text-align: left;
+  font-family: GetVoIP Grotesque;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.creditcard-text106 {
+  top: 14px;
+  left: 456px;
+  color: rgba(255, 255, 255, 1);
+  width: 76px;
+  height: auto;
+  position: absolute;
+  font-size: 40px;
+  font-style: Regular;
+  text-align: left;
+  font-family: GetVoIP Grotesque;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.creditcard-text107 {
+  top: 19px;
+  left: 206px;
+  color: var(--dl-color-gray-white);
+  width: 250px;
+  height: auto;
+  position: absolute;
+  font-size: 40px;
+  font-style: Regular;
+  text-align: left;
+  font-family: GetVoIP Grotesque;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.creditcard-screenshot20230526at7221 {
+  top: 4607px;
+  left: 116px;
+  width: 1311px;
+  height: 519px;
+  position: absolute;
+}
+.creditcard-component-variant42 {
+  top: 4707px;
+  left: 403px;
+  width: 737px;
+  height: 362px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.creditcard-clownsgold2 {
+  top: 0px;
+  left: 0px;
+  width: 737px;
+  height: 362px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.creditcard-rectangle32 {
+  top: 0px;
+  left: 0px;
+  width: 737px;
+  height: 362px;
+  position: absolute;
+  border-color: rgba(255, 255, 255, 0);
+  border-style: solid;
+  border-width: 10px;
+}
+.creditcard-text108 {
+  top: 19px;
+  left: 23px;
+  color: rgba(184, 33, 33, 0);
+  width: 684px;
+  height: auto;
+  position: absolute;
+  font-size: 40px;
+  font-style: Regular;
+  text-align: left;
+  font-family: GetVoIP Grotesque;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.creditcard-text109 {
+  color: var(--dl-color-gray-white);
+}
+.creditcard-text110 {
+  color: var(--dl-color-gray-white);
+}
+.creditcard-text111 {
+  color: var(--dl-color-gray-white);
+}
+.creditcard-text112 {
+  color: var(--dl-color-gray-white);
+}
+.creditcard-text113 {
+  color: var(--dl-color-gray-white);
+}
+.creditcard-text114 {
+  color: var(--dl-color-gray-white);
+}
+.creditcard-applybutton1 {
+  gap: 10px;
+  top: 5223px;
+  left: 652px;
+  width: 239px;
+  display: flex;
+  padding: 10px 10px 15px 10px;
+  position: absolute;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: rgba(255, 255, 255, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 20px;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.4000000059604645);
+}
+.creditcard-text116 {
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  font-size: 40px;
+  font-style: Regular;
+  text-align: left;
+  font-family: GetVoIP Grotesque;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
 }
