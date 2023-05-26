@@ -3,9 +3,6 @@
 
              }
 
-
-
-
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -32,11 +29,12 @@ body {
       display: flex;
       align-items: center;
       justify-content: left;
+      position: center;
     }
     
     header img {
       background-image: none;
-      max-width: 200px;
+      max-width: 50px;
       height: auto;
       margin-right: 10px;
       
@@ -71,6 +69,7 @@ body {
   
   .overview {
     margin-bottom: 30px;
+    color: azure;
   }
   
   .cards {
@@ -80,9 +79,13 @@ body {
   
   .card {
     flex-basis: 30%;
-    background-color: #f4f4f4;
-    padding: 20px;
+    background-color: gray;
+    padding: 10px;
     margin: 10px;
+    text-align: center;
+  }
+  .latest-transactions {
+    color: azure;
   }
   
   .card h3 {
@@ -127,7 +130,7 @@ a.button-link {
     color: #fff;
     border: none;
     border-radius: 5px;
-    padding: 10px 20px;
+    padding: 10px 10px;
     cursor: pointer;
     transition: background-color 0.3s ease, transform 0.3s ease;
     display: block;
@@ -154,7 +157,7 @@ a.button-link {
   footer {
     background-color: #333;
     color: #fff;
-    padding: 40px;
+    padding: 12px;
     text-align: center;
   }
   

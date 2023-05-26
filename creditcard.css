@@ -1323,7 +1323,7 @@
   position: absolute;
 }
 .creditcard-applybutton {
-  gap: 10px;
+  /* gap: 10px;
   top: 2672px;
   left: 652px;
   width: 239px;
@@ -1337,7 +1337,7 @@
   border-width: 1px;
   border-radius: 20px;
   justify-content: center;
-  background-color: rgba(0, 0, 0, 0.4000000059604645);
+  background-color: rgba(0, 0, 0, 0.4000000059604645); */
 }
 .creditcard-text083 {
   color: rgba(255, 255, 255, 1);
@@ -1350,6 +1350,21 @@
   line-height: normal;
   font-stretch: normal;
   text-decoration: none;
+  gap: 10px;
+  top: 2670px;
+  left: 652px;
+  width: 239px;
+  display: flex;
+  padding: 10px 10px 15px 10px;
+  position: absolute;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: rgba(255, 255, 255, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 20px;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.4000000059604645);
 }
 .creditcard-screenshot20230526at7181 {
   top: 294px;
@@ -1673,6 +1688,33 @@
   color: var(--dl-color-gray-white);
 }
 .creditcard-applybutton1 {
+  /* gap: 10px;
+  top: 5223px;
+  left: 652px;
+  width: 239px;
+  display: flex;
+  padding: 10px 10px 15px 10px;
+  position: absolute;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: rgba(255, 255, 255, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 20px;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.4000000059604645); */
+}
+.creditcard-text116 {
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  font-size: 40px;
+  font-style: Regular;
+  text-align: left;
+  font-family: GetVoIP Grotesque;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
   gap: 10px;
   top: 5223px;
   left: 652px;
@@ -1688,16 +1730,5 @@
   border-radius: 20px;
   justify-content: center;
   background-color: rgba(0, 0, 0, 0.4000000059604645);
-}
-.creditcard-text116 {
-  color: rgba(255, 255, 255, 1);
-  height: auto;
-  font-size: 40px;
-  font-style: Regular;
-  text-align: left;
-  font-family: GetVoIP Grotesque;
-  font-weight: 400;
-  line-height: normal;
-  font-stretch: normal;
-  text-decoration: none;
+  cursor: pointer;
 }
