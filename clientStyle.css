@@ -155,6 +155,7 @@ i p{
     margin: 5% auto;
     background-color: red;
     border: none;
+    border-radius: 20px;
     color: #fff;
     padding: 15px 110px;
     text-align: center;
@@ -162,6 +163,21 @@ i p{
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
+}
+.home{
+    margin:  auto;
+    padding: 20px 130px;
+    background-color: darkgrey;
+    border: none;
+    border-radius: 20px;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+    font-size: 16px;
+   
+}
+.home a:hover{
+    color: yellow;
 }
 .close :hover{
     color: bisque;
