@@ -1,94 +1,81 @@
-:root{
-    background-color: #8BC6EC;
-    background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
-               }
+:root {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("http://getwallpapers.com/wallpaper/full/f/c/1/745431-download-free-good-desktop-backgrounds-1920x1200-large-resolution.jpg");
+}
 
+/* Body styles */
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  
+  margin: 0;
+  padding: 0;
+}
 
+/* Header styles */
+header {
+  background-color: #333;
+  padding: 20px;
+  text-align: center;
+}
 
-  body {
-    font-family: Arial, sans-serif;
-    background-color: #fafafa;
-    font-size: 16px;
-    margin: 0;
-    padding: 0;
-  }
-  
-  header {
-    background-color: #333333;
-    padding: 20px;
-    text-align: center;
-  }
-  
-  
-  h1 {
-    margin: 0;
-    color: #f8f8f8;
-  }
-  
-  .container {
-    max-width: 800px;
-    margin: 20px auto;
-    padding: 20px;
-    background-color: #ffffff;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  }
-  
-  table {
-    width: 100%;
-    border-collapse: collapse;
-  }
-  
-  thead {
-    background-color: #f0f0f0;
-  }
-  
-  th {
-    padding: 10px;
-    text-align: left;
-    font-weight: bold;
-    border-bottom: 1px solid #cccccc;
-  }
-  
-  td {
-    padding: 10px;
-    border-bottom: 1px solid #cccccc;
-  }
-  
-  tr:nth-child(even) {
-    background-color: #f9f9f9;
-  }
-  
-  tr:hover {
-    background-color: #eaeaea;
-  }
-  
-  /* Additional Styles */
-  a.button-link {
-    text-decoration:none;
-  }
-  
-  button {
-    background-color: #4CAF50;
-    color: #fff;
-    border: none;
-    padding: 10px 20px;
-    cursor: pointer;
-    transition: background-color 0.3s ease, transform 0.3s ease;
-    display: block;
-    margin: 0 auto;
-  }
-  
-  button:hover {
-    background-color: #45a049;
-    transform: scale(1.05);
-  }
-  
-  .button:focus {
-    outline: auto;
-  }
-  
-  .button-container {
-    display: inline-block;
-    margin-right: 25px;
-  }
-  
+h1 {
+  color: #fff;
+  margin: 0;
+}
+
+/* Table styles */
+table {
+  margin: 20px auto;
+  border-collapse: collapse;
+  width: 800px;
+}
+
+th,
+td {
+  padding: 10px;
+  text-align: left;
+  color: azure;
+}
+
+th {
+  background-color: #333;
+  color: #fff;
+}
+
+td {
+  border-bottom: 1px solid #333;
+}
+
+tr:nth-child(even) {
+  background-color: #333;
+}
+
+/* Button styles */
+.button-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.button-container a {
+  text-decoration: none;
+}
+
+.button-container button {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.button-container button:hover {
+  background-color: #555;
+  transform: scale(1.05);
+}
+
+.button-container button:focus {
+  outline: none;
+}

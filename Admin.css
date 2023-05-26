@@ -1,13 +1,11 @@
 :root{
-    background-color: #8BC6EC;
-    background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
-               }
+  background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url("http://getwallpapers.com/wallpaper/full/f/c/1/745431-download-free-good-desktop-backgrounds-1920x1200-large-resolution.jpg");
+
+             }
 
 
 
-  /* Admin.css */
 
-/* General styles */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -16,7 +14,7 @@ body {
   }
   
   h1, h2, h3 {
-    margin: 0;
+    margin: 3;
   }
   
   .container {
@@ -26,28 +24,45 @@ body {
   }
   
   /* Header styles */
-  header {
-    background-color: #333;
-    color: #fff;
-    padding: 20px;
-  }
   
-  nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-  }
-  
-  nav ul li {
-    display: inline;
-    margin-right: 10px;
-  }
-  
-  nav ul li a {
-    color: #fff;
-    text-decoration: none;
-    padding: 5px 10px;
-  }
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: left;
+    }
+    
+    header img {
+      background-image: none;
+      max-width: 200px;
+      height: auto;
+      margin-right: 10px;
+      
+    }
+    
+    nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+    
+    nav ul li {
+      display: inline;
+      margin-right: 10px;
+    }
+    
+    nav ul li a {
+      color: #fff;
+      text-decoration: none;
+      padding: 5px 10px;
+    }
+    
+    nav ul li a:hover {
+      background-color: #555;
+    }
+    
   
   /* Main styles */
   main {
@@ -76,26 +91,42 @@ body {
   
   /* Transactions table styles */
   table {
-    width: 100%;
+    margin: none;
     border-collapse: collapse;
-    margin-top: 20px;
+    width: 800px;
   }
   
-  table th, table td {
+  th,
+  td {
     padding: 10px;
     text-align: left;
-    border-bottom: 1px solid #ccc;
+    color: azure;
+  }
+  
+  th {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  td {
+    border-bottom: 1px solid #333;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #333;
   }
   
 /* Buttons styles */
 a.button-link {
-    text-decoration:none;
+    text-decoration:wavy;
+    
   }
   
   button {
-    background-color: #4CAF50;
+    background-color: #333;
     color: #fff;
     border: none;
+    border-radius: 5px;
     padding: 10px 20px;
     cursor: pointer;
     transition: background-color 0.3s ease, transform 0.3s ease;
@@ -103,8 +134,9 @@ a.button-link {
     margin: 0 auto;
   }
   
+  
   button:hover {
-    background-color: #45a049;
+    background-color: #555;
     transform: scale(1.05);
   }
   
@@ -114,14 +146,15 @@ a.button-link {
   
   .button-container {
     display: inline-block;
-    margin-right: 25px;
+    margin-right: 100px;
+    margin-left: 100px;
   }
   
   /* Footer styles */
   footer {
     background-color: #333;
     color: #fff;
-    padding: 10px;
+    padding: 40px;
     text-align: center;
   }
   
