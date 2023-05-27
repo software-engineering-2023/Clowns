@@ -4,19 +4,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Announcement</title>
     <link rel="stylesheet" href="Announcment.css">
 </head>
 <body>
     <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Announcment</title>
+  <title>Announcement</title>
   
 </head>
 <body>
   <header>
-    <h1>Announcment </h1>
+    <h1>Announcement </h1>
   </header>
   <body1>
     <table>
@@ -125,9 +125,9 @@
     
     <br>
     <br>
-    <h1>Create new Announcement</h1>
+    <h3>Please enter a text and press the button to create a new Announcement</h3>
     <div class="mm">
-      <button  onclick="printStatement()"> Create Announcement</button>
+      <button  class ="create" onclick="printStatement()"> Create Announcement</button>
     </div>
     <div class="button-container">
   
@@ -136,7 +136,8 @@
     <script>
       function printStatement() {
         var outputElement = document.getElementById("output");
-        outputElement.textContent = "Announcment Created ";
+        outputElement.textContent = "Announcement Created ! ";
+        outputElement.style.color="white";
       }
     </script>
     </a>

@@ -23,6 +23,9 @@ h1 {
   color: #fff;
   margin: 0;
 }
+h3{
+  color: azure;
+}
 
 /* Table styles */
 table {
@@ -75,11 +78,38 @@ tr:nth-child(even) {
 .button-container button:focus {
   outline: none;
 }
-.meow{
-  margin-left: 20px;
+
+.create {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
 }
-.mm{
-  position: left;
+
+.create input[type="text"] {
+  width: 300px;
+  padding: 8px;
+  margin-right: 10px;
+}
+
+.create button {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  text-align: center;
+  text-decoration: none;
+}
+
+.create button:hover {
+  background-color: #555;
+  transform: scale(1.05);
+}
+
+.create button:focus {
+  outline: none;
 }
   /* Input styling */
   input[type="text"] {
@@ -111,3 +141,6 @@ tr:nth-child(even) {
   .link-button button:hover {
     background-color: #111;
   }
+output{
+  color: azure;
+}

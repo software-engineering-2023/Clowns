@@ -657,13 +657,25 @@
   flex-shrink: 1;
 }
 .kk{
-  border: solid #181818;
-  background-color: antiquewhite;
-  padding: 20px 30px;
-  position: fixed;
-  cursor: pointer;
+  top : 2700px;
+  left: 680px;
+  width: 200px;
+  color: white;
+  border: solid white;
+  background-color: black;
+  height: auto;
+  font-size: 40px;
+  font-style: Regular;
   text-align: center;
-  
+  font-family: GetVoIP Grotesque;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+  padding: 20px 30px;
+  position: relative;
+  cursor: pointer;
+
 
 }
 .creditcard-text016 {
