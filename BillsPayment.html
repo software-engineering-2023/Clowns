@@ -341,7 +341,7 @@
               alt="BoxI114"
               class="billspayment-box"
             />
-            <input type="text" id="Bill ID" class="billspayment-text36" placeholder="Bill ID" required>
+            <input type="text" id="Bill-ID" class="billspayment-text36" placeholder="Bill ID" required>
             <div class="billspayment-value-main">
               <div class="billspayment-frame">
                 <div class="billspayment-mask-layer"></div>
@@ -368,24 +368,35 @@
             class="billspayment-rectangle19"
           />
           <div class="billspayment-group7">
-            <span class="billspayment-text40"><span>Bill ID</span></span>
-            <span class="billspayment-text42">1</span>
-            <span class="billspayment-text43"><span>Electricity</span></span>
-            <span class="billspayment-text45"><span>1500 L.E</span></span>
-            <span class="billspayment-text47"><span>24/06/2023</span></span>
+            <div id="1">
+            <span class="billspayment-text40" id="1"><span>Bill ID</span></span>
+            <span class="billspayment-text42" id="1">1</span>
+            <span class="billspayment-text43" id="1"><span>Electricity</span></span>
+            <span class="billspayment-text45" id="1"><span>1500 L.E</span></span>
+            <span class="billspayment-text47" id="1"><span>24/06/2023</span></span>
+          </div>
+          <div id="2">
             <span class="billspayment-text49">2</span>
             <span class="billspayment-text50"><span>Water</span></span>
             <span class="billspayment-text52"><span>1000 L.E</span></span>
             <span class="billspayment-text54"><span>01/06/2023</span></span>
+          </div>
+          <div id="3">
             <span class="billspayment-text56">3</span>
-            <span class="billspayment-text57">4</span>
-            <span class="billspayment-text58"><span>telephone</span></span>
-            <span><button class="billspayment-text60"><a href="PaidBill.html">Pay</a></button></span>
             <span class="billspayment-text61"><span>Gas</span></span>
             <span class="billspayment-text63"><span>720 L.E</span></span>
-            <span class="billspayment-text65"><span>500L.E</span></span>
             <span class="billspayment-text67"><span>10/06/2023</span></span>
+          </div>
+          <span><button class="billspayment-text60"><a href="#" onclick="meow()">Pay</a></button></span>
+          <div id="4">
+            <span class="billspayment-text57">4</span>
+            <span class="billspayment-text58"><span>telephone</span></span>
+            
+     
+            <span class="billspayment-text65"><span>500L.E</span></span>
+          
             <span class="billspayment-text69"><span>10/06/2023</span></span>
+          </div>
             <span class="billspayment-text71"><span>Bill type</span></span>
             <span class="billspayment-text73">
               <span>
@@ -435,4 +446,42 @@
       </div>
     </div>
   </body>
+  <script>
+
+    // function register(){
+    //         x.style.left="-400px";
+    //         y.style.left="50px";
+    //         z.style.left="110px";
+
+    //     }
+    var div1 = document.getElementById('1');
+    var div2 = document.getElementById('2');
+    var div3 = document.getElementById('3');
+    var div4 = document.getElementById('4');
+
+    function meow(){
+    const x= document.getElementById("1")
+    let x1= document.getElementById("Bill-ID").value;
+    if(x1==="1"){
+     // x.style.left="-400px";
+      div1.parentNode.removeChild(div1);
+      //alert("pola");
+      //
+      //location.replace('/PaidBill.html');
+     // x.style.appearance= null;
+    }
+    else if(x1==="2"){
+      div2.parentNode.removeChild(div2);
+
+    }
+    else if(x1==="3"){
+      div3.parentNode.removeChild(div3);
+
+    }
+    else if(x1==="4"){
+      div4.parentNode.removeChild(div4);
+      location.replace('/PaidBill.html');
+    }
+  }
+  </script>
 </html>

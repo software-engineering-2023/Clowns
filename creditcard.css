@@ -656,6 +656,16 @@
   align-items: flex-start;
   flex-shrink: 1;
 }
+.kk{
+  border: solid #181818;
+  background-color: antiquewhite;
+  padding: 20px 30px;
+  position: fixed;
+  cursor: pointer;
+  text-align: center;
+  
+
+}
 .creditcard-text016 {
   color: rgba(255, 255, 255, 1);
   width: 204px;

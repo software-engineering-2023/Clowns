@@ -1154,6 +1154,7 @@
   text-decoration: none;
 }
 .reminders-general-text083 {
+  cursor: pointer;
   top: -285px;
   left: 596px;
   color: rgb(255, 255, 255);

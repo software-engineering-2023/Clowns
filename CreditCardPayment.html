@@ -355,7 +355,7 @@
               alt="BoxI114"
               class="credit-card-payment-box"
             />
-            <input type="text" id="Bill ID" class="credit-card-payment-text36" placeholder="Bill ID" required>
+            <input type="text" id="Bill-ID" class="credit-card-payment-text36" placeholder="Bill ID" required>
 
             <div class="credit-card-payment-value-main">
               <div class="credit-card-payment-frame">
@@ -383,7 +383,7 @@
               alt="BoxI121"
               class="credit-card-payment-box2"
             />
-              <input type="text" id="AccountNo" class="credit-card-payment-text40" placeholder=" Amount to be paid (you can either pay partially or fully )" required>
+              <input type="text" id="AccountNo2" class="credit-card-payment-text40" placeholder=" Amount to be paid (you can either pay partially or fully )" required>
 
             </span>
             <div class="credit-card-payment-value-main2">
@@ -401,27 +401,32 @@
           </div>
           <div class="credit-card-payment-group7">
             <span class="credit-card-payment-text42"><span>Bill ID</span></span>
+            <div id="5">
             <span class="credit-card-payment-text44">5</span>
             <span class="credit-card-payment-text45">
               <span>1234-5312-2160</span>
             </span>
-            <span class="credit-card-payment-text47">
-              <span>9873-5312-2160</span>
-            </span>
+            
             <span class="credit-card-payment-text49">
-              <span>1500 L.E</span>
+              <span id="myspan">1500 L.E</span>
             </span>
             <span class="credit-card-payment-text51">
               <span>24/06/2023</span>
             </span>
+          </div>
+          <div id="6">
             <span class="credit-card-payment-text53">6</span>
             <span class="credit-card-payment-text54">
-              <span>1000 L.E</span>
+              <span id = "myspan2">1000 L.E</span>
             </span>
-            <span><button class="credit-card-payment-text56"><a href="PaidBill.html">Pay</a></button></span>
+            <span class="credit-card-payment-text47">
+              <span>9873-5312-2160</span>
+            </span>
+            <span><button class="credit-card-payment-text56"><a href="#" onclick="meow()">Pay</a></button></span>
             <span class="credit-card-payment-text57">
               <span>01/06/2023</span>
             </span>
+          </div>
             <span class="credit-card-payment-text59">
               <span>
                 <span>Credit Card</span>
@@ -467,4 +472,47 @@
       </div>
     </div>
   </body>
+  <script>
+     var div1 = document.getElementById('5');
+    var div2 = document.getElementById('6');
+      span = document.getElementById("myspan");
+      const st1 = Number (document.getElementById("myspan").value);
+      span2 = document.getElementById("myspan2");
+      txt = document.createTextNode("your cool text");
+
+    function meow(){
+    let x1= document.getElementById("Bill-ID").value;
+    const x2= 1500 ;
+    let am = document.getElementById("AccountNo2").value;
+    const tk = Number( document.getElementById("AccountNo2").value);
+
+    if(x1==="5" && (am === "1500" || tk>1500)){
+     // x.style.left="-400px";
+      div1.parentNode.removeChild(div1);
+      //span.removeChild();
+      //span.textContent = "meow";
+      // span.parentNode.removeChild(span);
+      // span.appendChild(txt);
+      //alert("pola");
+      //
+      //location.replace('/PaidBill.html');
+     // x.style.appearance= null;
+    }
+    else if(x1==="5" && tk<1500 ){
+     const eq = 1500 - tk;
+    // alert("sure?" + " " tk)
+     span.textContent = eq;
+
+    }
+    else if(x1==="6" && (am === "1000" || tk>1000)){
+      div2.parentNode.removeChild(div2);
+      location.replace('/PaidBill.html')
+
+    }
+    else if(x1==="6" && tk<1000){
+     const eq = 1000 - tk;
+     span2.textContent = eq;
+    }
+  }
+  </script>
 </html>

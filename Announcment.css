@@ -59,6 +59,7 @@ tr:nth-child(even) {
   border: none;
   border-radius: 5px;
   padding: 10px 20px;
+  margin-left: 700px;
   cursor: pointer;
   transition: background-color 0.3s ease, transform 0.3s ease;
   display: inline-block;
@@ -74,7 +75,12 @@ tr:nth-child(even) {
 .button-container button:focus {
   outline: none;
 }
-
+.meow{
+  margin-left: 20px;
+}
+.mm{
+  position: left;
+}
   /* Input styling */
   input[type="text"] {
     width: 300px;
