@@ -1,14 +1,16 @@
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
 :root{
-  background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url("http://getwallpapers.com/wallpaper/full/f/c/1/745431-download-free-good-desktop-backgrounds-1920x1200-large-resolution.jpg");
-
+  /*background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url("http://getwallpapers.com/wallpaper/full/f/c/1/745431-download-free-good-desktop-backgrounds-1920x1200-large-resolution.jpg");
+*/
+background-image: url(p.jpg);
+background-size: cover;
              }
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   list-style: none;
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: Michroma;
 }
 
 body{
@@ -28,7 +30,7 @@ body{
 
 .wrapper .left{
   width: 35%;
-  background: linear-gradient(to right,#01a9ac,#01dbdf);
+  background: linear-gradient(to right,#343493,#75699f);
   padding: 30px 25px;
   border-top-left-radius: 5px;
   border-bottom-left-radius: 5px;
@@ -47,6 +49,7 @@ body{
 }
 
 .wrapper .left p{
+  color:#919aa3;
   font-size: 12px;
   margin-bottom: 10px;
 }
@@ -69,7 +72,8 @@ body{
     margin-bottom: 15px;
     padding-bottom: 5px;
     border-bottom: 1px solid #e0e0e0;
-    color: #353c4e;
+    color: #343493;
+    
   text-transform: uppercase;
   letter-spacing: 5px;
 }
@@ -87,13 +91,14 @@ body{
 
 .wrapper .right .info_data .data h4,
 .wrapper .right .projects_data .data h4{
-    color: #353c4e;
+    color: #1f2128;
     margin-bottom: 5px;
+    
 }
 
 .wrapper .right .info_data .data p,
 .wrapper .right .projects_data .data p{
-  font-size: 13px;
+  font-size: 10px;
   margin-bottom: 10px;
   color: #919aa3;
 }
@@ -105,7 +110,7 @@ body{
 .wrapper .social_media ul li{
   width: 45px;
   height: 45px;
-  background: linear-gradient(to right,#01a9ac,#01dbdf);
+  background: linear-gradient(to right,#343493,#75699f);
   margin-right: 10px;
   border-radius: 5px;
   text-align: center;

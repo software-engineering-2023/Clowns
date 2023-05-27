@@ -1,3 +1,11 @@
+@font-face {
+  font-family:getvoip grotesque ;
+  src: url(getvoip-grotesque.ttf);
+}
+button:hover{
+  
+  transform: scale(1.05);
+}
 .credit-card-apply2-container {
   width: 100%;
   display: flex;

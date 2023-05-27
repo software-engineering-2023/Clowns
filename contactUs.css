@@ -1,6 +1,8 @@
 :root{
-    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url("http://getwallpapers.com/wallpaper/full/f/c/1/745431-download-free-good-desktop-backgrounds-1920x1200-large-resolution.jpg");
-
+    /*background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url("http://getwallpapers.com/wallpaper/full/f/c/1/745431-download-free-good-desktop-backgrounds-1920x1200-large-resolution.jpg");
+*/
+background-image: url(Black.jpg);
+background-size: cover;
                }
 *{
     margin: 0;
@@ -9,14 +11,16 @@
 body{
     
     font-size: 14px;
-    font-family: 'Poppins', sans-serif;
+    font-family: Michroma;
 }
 
 .container{
+    color: white;
     width: 80%;
     margin: 50px auto;
 }
 .contact-box{
+    border-radius: 20px;
     background: #fff;
     display: flex;
 }
@@ -27,8 +31,11 @@ body{
 .contact-right{
     flex-basis: 40%;
     padding: 40px;
-    background: #1c00b5;
+    border-radius: 0px 20px 20px 0px;
+    background:url(3312542.jpg);
+    background-size:cover;
     color: #fff;
+    font-family: Michroma;
 }
 h1{
     margin-bottom: 10px;
@@ -40,15 +47,18 @@ h1{
 }
 
 .input-row{
+    font-family: Michroma;
     display: flex;
     justify-content: space-between;
     margin-bottom: 20px;
 }
 .input-row .input-group{
+    font-family: Michroma;
     flex-basis: 45%;
 }
 
 input{
+    font-family: Michroma;
     width: 100%;
     border: none;
     border-bottom: 1px solid #ccc;
@@ -58,6 +68,7 @@ input{
 
 
 textarea{
+    font-family: Michroma;
     width: 100%;
     border: 1px solid #ccc;
     outline: none;
@@ -68,22 +79,23 @@ textarea{
 label{
     margin-bottom: 6px;
     display: block;
-    color: #1c00b5;
+    color: #3C3493;
 }
 
 button{
-    background: #1c00b5;
+    background: #3C3493;
     width: 100px;
     border: none;
     outline: none;
-    color: #fff;
+    color: #ccc;
     height: 35px;
     border-radius: 30px;
     margin-top: 20px;
     box-shadow: 0px 5px 15px 0px rgba(28, 0, 181, 0.3);
 }
 button:hover{
-    color: #ffc107;
+    color: #fff;
+    transform: scale(1.05);
 }
 .contact-left h3{
     color: #1c00b5;

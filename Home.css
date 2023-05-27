@@ -1,8 +1,12 @@
+@font-face {
+  font-family:getvoip grotesque ;
+  src: url(getvoip-grotesque.ttf);
+}
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: 'Kumbh Sans', sans-serif;
+  font-family: getvoip grotesque;
   scroll-behavior: smooth;
 }
 
