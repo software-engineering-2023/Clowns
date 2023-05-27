@@ -28,7 +28,7 @@
       <label for="end-date">End Date:</label>
       <input type="date" id="end-date">
       <br><br>
-      <button type="submit">View Transactions</button>
+      <button type="submit" onclick="Get()">View Transactions</button>
     </form>
     <table>
       <thead>
@@ -42,11 +42,13 @@
       </thead>
       <tbody>
         <tr>
+        <div id="01/05/2023">
           <td>2023-5-01</td>
           <td>Payment from John Doe</td>
           <td>Deposit</td>
           <td>$500.00</td>
           <td>$2,500.00</td>
+        </div>
         </tr>
         <tr>
           <td>2023-5-29</td>
@@ -73,7 +75,22 @@
     </table>
   </body>
 </html>
-<script src="./Control.js">
+<script>
+        let start = document.getElementById("start-date").value;
+       let end = document.getElementById("end-date").value;
+       let d1= document.getElementById("01/05/2023");
+      function Get(){
+        const dates=[];
+        while(start <=end){
+          if (d1>= start || d1<=end)
+          dates.push(d1);
+        }
+       // return dates;
+        window.screen(dates);
+      }
+      //console.alert(Get(start,end));
+      
 </script>
+
 </body>
 </html>

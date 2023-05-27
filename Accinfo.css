@@ -43,10 +43,12 @@ body{
 
 .wrapper .left h4{
   margin-bottom: 10px;
+
 }
 
 .wrapper .left p{
   font-size: 12px;
+  margin-bottom: 10px;
 }
 
 .wrapper .right{
