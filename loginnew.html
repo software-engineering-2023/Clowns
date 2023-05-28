@@ -32,11 +32,11 @@
                 <button type="button" class="submit-btn" onclick="Move()" value="Login" id="mnbn">Login</button>
             </form>
             <form id="Register" class="inpt-group">
-                <input type="text" class="inpt-field" placeholder="Username" required>
+                <input type="text" id="user2" class="inpt-field" placeholder="Username" required>
                 <input type="email" class="inpt-field" placeholder="Email" required>
                 <input type="text" class="inpt-field" placeholder="Password" required>
                 <input type="checkbox" class="check-box"><span>Agree to terms and conditions</span>
-                <a href="/loginnew.html"><button type="button" class="submit-btn">Register</button>
+                <button type="button" class="submit-btn" onclick="Re()">Register</button>
             </form>
         </div>
        
@@ -58,6 +58,7 @@
             z.style.left="0";
 
         }
+
         function Move(){
             let user = document.getElementById("username").value;
             let pass = document.getElementById("Pass").value;
@@ -75,6 +76,16 @@
             }
             else{
                 alert("User not found! Try again");
+            }
+        }
+       
+        function  Re(){
+            let x = document.getElementById("user2").value;
+            if( x=== "client" || x==="banker" || x=== "admin"){
+                alert("user already exists");
+            }
+            else{
+                location.replace('/loginnew.html');
             }
         }
 
