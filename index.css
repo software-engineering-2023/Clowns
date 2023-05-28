@@ -16,12 +16,11 @@
 .kk2{
     top :-50px; 
     left: 0px;
-     width: 290px;
+     width: 90px;
      height: 20px;
      color: white;
-
      border: solid white;
-     background-color:white ;
+     background-color:transparent ;
      height: auto;
      font-size: 20px;
      font-style: Regular;
@@ -39,7 +38,7 @@
    
    }
 body {
-    background-image: url(well.jpg);
+    background-image: url(x.jpg);
     background-size:cover ;
      background-color: #edeef6; 
     display: flex;
@@ -55,7 +54,9 @@ body {
 }
 
 .form-content {
-    background: linear-gradient(to right, #222222, #3c3493, #222222);
+    border-radius: 10px;
+    background-color: rgba(140, 140, 140, 0.5);
+   /* background: linear-gradient(to right, #222222, #3c3493, #222222);*/
     
     padding: 10px;
 }
@@ -66,11 +67,11 @@ body {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
     padding: 20px;
 }
-button:hover{
+.button2:hover{
     transform: scale(1.01);
-    background-color:#7569ff ;
+    background:linear-gradient(to right , #222,#7569ff,#222) ;
 }
-button {
+.button2 {
     margin: 10px 0 10px 0;
     background: linear-gradient(to right, #222222, #3c3493, #222222);
     color: white;
