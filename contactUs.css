@@ -83,6 +83,8 @@ label{
 }
 
 button{
+    font-size: 9px;
+    font-family: Michroma;
     background: #3C3493;
     width: 100px;
     border: none;

@@ -245,16 +245,17 @@ button:hover{
 
 .hero__description {
   font-size: 60px;
-  background: #da22ff; /* fallback for old browsers */
+  background: #7569ff; /* fallback for old browsers */
+  
   background: -webkit-linear-gradient(
     to right,
-    #9114ff,
-    #da22ff
+    #3c3493,
+    #9114ff
   ); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(
     to right,
-    #8f0eff,
-    #da22ff
+    #3c3493,
+    #9518fc
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   background-size: 100%;
   -webkit-background-clip: text;
@@ -264,7 +265,7 @@ button:hover{
 }
 
 .highlight {
-  border-bottom: 4px solid rgb(132, 0, 255);
+  border-bottom: 4px solid #7569ff;
 }
 
 @media screen and (max-width: 768px) {
@@ -303,8 +304,9 @@ button:hover{
 
 .main__content h1 {
   font-size: 2rem;
-  background-color: #fe3b6f;
-  background-image: linear-gradient(to top, #ff087b 0%, #ed1a52 100%);
+
+  background-color: #fff;
+  
   background-size: 100%;
   -webkit-background-clip: text;
   -moz-background-clip: text;
@@ -344,7 +346,7 @@ button:hover{
   font-size: 1.8rem;
   background: #833ab4;
   background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
-  background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
+  background: linear-gradient(to right, #7569ff, #3c3493, #222222);
   padding: 20px 60px;
   border: none;
   border-radius: 4px;
@@ -369,7 +371,7 @@ button:hover{
   left: 0;
   width: 0;
   height: 100%;
-  background: #ff1ead;
+  background: #7569ff;
   transition: all 0.35s;
   border-radius: 4px;
 }
@@ -404,7 +406,7 @@ button:hover{
 }
 
 #card-2 {
-  background: #ff512f;
+  background: #ccc;
   background: -webkit-linear-gradient(to right, #dd2476, #ff512f);
   background: linear-gradient(to right, #dd2476, #ff512f);
 }
@@ -492,8 +494,8 @@ button:hover{
 }
 
 .services h1 {
-  background-color: #ff8177;
-  background-image: linear-gradient(to right, #ff0844 0%, #f7673c 100%);
+  background-color: #fff;
+  /*background-image: linear-gradient(to right, #ff0844 0%, #f7673c 100%);*/
   background-size: 100%;
   -webkit-background-clip: text;
   -moz-background-clip: text;

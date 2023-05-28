@@ -1,8 +1,11 @@
 :root{
-    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url("http://getwallpapers.com/wallpaper/full/f/c/1/745431-download-free-good-desktop-backgrounds-1920x1200-large-resolution.jpg");
-
+   /* background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url("http://getwallpapers.com/wallpaper/full/f/c/1/745431-download-free-good-desktop-backgrounds-1920x1200-large-resolution.jpg");
+*/
+background-image: url(x.jpg);
+background-size: cover;
                }
 *{
+    border-color: #fff;
     box-sizing: border-box;
     padding: 0;
     margin: 0;
@@ -13,6 +16,7 @@ button:hover{
     transform: scale(1.05);
   }
 body{
+    border-color: #fff;
     background: var(--background-color);
     font-family: Michroma;
     display: flex;
@@ -23,12 +27,14 @@ body{
 }
 
 a{
+    border-color: #fff;
     font-family: Michroma;
     text-decoration: none;
     outline: none;
 }
 
 ul li{
+    border-color: #fff;
     font-family: Michroma;
     list-style: none;
     display: flex;
@@ -62,6 +68,7 @@ i p{
 }
 
 .selector-menu{
+    border-color: #fff;
     font-family: Michroma;
     display: flex;
     align-items: center;
@@ -69,6 +76,7 @@ i p{
 }
 
 .selector-menu a{
+    
     font-family: Michroma;
     background: rgba(0, 0, 0, 0.3);
     display: flex;
@@ -81,12 +89,18 @@ i p{
 .selector-menu a:hover{
     font-family: Michroma;
     transform: scale(1.5);
-    background: rgba(0, 0, 0, 0.9);
-    box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.6);
+    background: linear-gradient(
+        to right,
+        #8f0eff,
+        #000
+      );
+      opacity: 0.9;
+    /*box-shadow: 0 0 10px 2px rgba(255, 255, 255, 0.6);*/
     text-decoration: #fff;
 }
 
 .tooltipText{
+    border-color: #fff;
     font-family: Michroma;
     visibility: hidden;
     width: 50px;
@@ -103,6 +117,7 @@ i p{
 
 
 .menu-container{
+    border-color: #fff;
     font-family: Michroma;
     width: 300px;
 }
@@ -115,7 +130,12 @@ i p{
 }
 
 .overlay{
-    background: rgba(0, 0, 0, 0.2);
+    background: linear-gradient(
+        to right,
+        #8f0eff,
+        #000
+      );
+      opacity: 0.5;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
     position: absolute;
@@ -171,7 +191,11 @@ i p{
 .close {
     font-family: Michroma;
     margin: 5% auto;
-    background-color:#3c3493;
+    background: linear-gradient(
+        to right,
+        #8f0eff,
+        #000
+      );
     border: none;
     border-radius: 20px;
     color: #fff;

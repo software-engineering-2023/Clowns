@@ -14,7 +14,7 @@
   position: relative;
   align-items: flex-start;
   flex-shrink: 0;
-  background-color: rgba(174, 174, 174, 1);
+  background-color: #222222;
 }
 .bank-account-created-page2 {
   top: -74px;

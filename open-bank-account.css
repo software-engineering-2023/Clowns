@@ -1,3 +1,11 @@
+@font-face {
+  font-family:getvoip grotesque ;
+  src: url(getvoip-grotesque.ttf);
+}
+button:hover{
+  
+  transform: scale(1.05);
+}
 .open-bank-account-container {
   width: 100%;
   display: flex;
@@ -14,7 +22,7 @@
   position: relative;
   align-items: flex-start;
   flex-shrink: 0;
-  background-color: rgba(217, 217, 217, 1);
+  background-color:#222222;
 }
 .open-bank-account-page2 {
   top: 48px;
