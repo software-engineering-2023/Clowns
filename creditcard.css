@@ -688,9 +688,9 @@ button:hover{
 
 }
 .kk2{
-top :159px; 
- left: -200px;
-  width: 100px;
+ top :159px; 
+ left: -130px;
+  width: 290px;
   color: white;
   border: solid white;
   background-color: rgba(0, 0, 0, 0.3);
@@ -698,12 +698,13 @@ top :159px;
   font-size: 20px;
   font-style: Regular;
   text-align: center;
+  display: block;
   font-family: GetVoIP Grotesque;
   font-weight: 100;
   line-height: normal;
   font-stretch: normal;
   text-decoration: none;
-  padding: 20px 50px;
+  padding: 20px 40px;
   position: relative;
   cursor: pointer;
   border-radius: 20px;
