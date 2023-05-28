@@ -13,7 +13,31 @@
     box-sizing: border-box;
     font-family: Michroma;
 }
+.kk2{
+    top :-50px; 
+    left: 0px;
+     width: 290px;
+     height: 20px;
+     color: white;
 
+     border: solid white;
+     background-color:white ;
+     height: auto;
+     font-size: 20px;
+     font-style: Regular;
+     text-align: center;
+     display: block;
+     font-family: Michroma;
+     font-weight: 100;
+     /*line-height: normal;*/
+     font-stretch: normal;
+     text-decoration: none;
+     padding: 20px 40px;
+     position: relative;
+     cursor: pointer;
+     border-radius: 20px;
+   
+   }
 body {
     background-image: url(well.jpg);
     background-size:cover ;
@@ -26,7 +50,7 @@ body {
 }
 
 .content {
-    
+    align-items: center;
     padding: 5px;
 }
 
