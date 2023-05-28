@@ -149,9 +149,21 @@
     .notifications-list::-webkit-scrollbar-thumb:hover {
       background-color: #aaa;
     }
+    button[type="button"] {
+    display: block;
+    font-size: medium;
+    padding: 10px;
+    background-color: black;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+  }
   </style>
 </head>
 <body>
+  <div>
+    <a href="/client.html" style="text-decoration:none"><button type="button">Previous Page</button></a>
+  </div>
   <div class="container">
     <h1>Notifications</h1>
     <div class="notifications-list">

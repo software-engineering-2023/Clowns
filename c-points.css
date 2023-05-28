@@ -730,6 +730,37 @@
   font-stretch: normal;
   text-decoration: none;
 }
+.c-points-prev {
+  gap: 10px;
+  top: 1000px;
+  left: 632px;
+  width: 239px;
+  display: flex;
+  padding: 10px 10px 15px 10px;
+  position: absolute;
+  box-sizing: content-box;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: rgba(255, 255, 255, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 20px;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.4000000059604645);
+  margin-top: 15px;
+}
+.c-points-textprevious {
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  font-size: 36px;
+  font-style: Regular;
+  text-align: left;
+  font-family: GetVoIP Grotesque;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
 .c-points-text36 {
   top: 455px;
   left: 254px;

@@ -46,14 +46,34 @@
   button[type="button"] {
     display: block;
     width: 100%;
-    padding: 10px;
+    padding: 8px;
     background-color: #4CAF50;
     color: #fff;
     border: none;
     border-radius: 4px;
     cursor: pointer;
+    margin-top: 10px;
   }
   
   button[type="button"]:hover {
     background-color: #45a049;
+  }
+  
+  button[type="button2"] {
+    display: block;
+    width: 100%;
+    padding: 8px;
+    background-color: gray;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  button[type="button2"]:hover {
+    background-color: darkgray;
+  }
+  .prev {
+    color: white;
   }

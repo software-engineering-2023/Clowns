@@ -66,3 +66,19 @@ button[type="submit"]:hover {
   background-color: #7569ff;
 }
 
+button[type="button"] {
+  background-color: #3c3493;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-family: Michroma;
+  font-size: 14px;
+  cursor: pointer;
+  margin-left: 15px;
+}
+
+button[type="button"]:hover {
+  background-color: #7569ff;
+}
+
