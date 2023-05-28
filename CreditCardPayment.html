@@ -408,7 +408,7 @@
             </span>
             
             <span class="credit-card-payment-text49">
-              <span id="myspan">1500 L.E</span>
+              <span id="myspan">1500 $</span>
             </span>
             <span class="credit-card-payment-text51">
               <span>24/06/2023</span>
@@ -417,7 +417,7 @@
           <div id="6">
             <span class="credit-card-payment-text53">6</span>
             <span class="credit-card-payment-text54">
-              <span id = "myspan2">1000 L.E</span>
+              <span id = "myspan2">1000 $</span>
             </span>
             <span class="credit-card-payment-text47">
               <span>9873-5312-2160</span>
@@ -501,7 +501,7 @@
     else if(x1==="5" && tk<1500 ){
      const eq = 1500 - tk;
     // alert("sure?" + " " tk)
-     span.textContent = eq;
+     span.textContent = eq + "$";
 
     }
     else if(x1==="6" && (am === "1000" || tk>1000)){
@@ -511,7 +511,10 @@
     }
     else if(x1==="6" && tk<1000){
      const eq = 1000 - tk;
-     span2.textContent = eq;
+     span2.textContent = eq + "$";
+    }
+    else{
+      alert("no bill with this id");
     }
   }
   </script>

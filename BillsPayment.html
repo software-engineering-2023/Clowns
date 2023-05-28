@@ -372,19 +372,19 @@
             <span class="billspayment-text40" id="1"><span>Bill ID</span></span>
             <span class="billspayment-text42" id="1">1</span>
             <span class="billspayment-text43" id="1"><span>Electricity</span></span>
-            <span class="billspayment-text45" id="1"><span>1500 L.E</span></span>
+            <span class="billspayment-text45" id="1"><span>1500$</span></span>
             <span class="billspayment-text47" id="1"><span>24/06/2023</span></span>
           </div>
           <div id="2">
             <span class="billspayment-text49">2</span>
             <span class="billspayment-text50"><span>Water</span></span>
-            <span class="billspayment-text52"><span>1000 L.E</span></span>
+            <span class="billspayment-text52"><span>1000$</span></span>
             <span class="billspayment-text54"><span>01/06/2023</span></span>
           </div>
           <div id="3">
             <span class="billspayment-text56">3</span>
             <span class="billspayment-text61"><span>Gas</span></span>
-            <span class="billspayment-text63"><span>720 L.E</span></span>
+            <span class="billspayment-text63"><span>720$</span></span>
             <span class="billspayment-text67"><span>10/06/2023</span></span>
           </div>
           <span><button class="billspayment-text60"><a href="#" onclick="meow()">Pay</a></button></span>
@@ -393,7 +393,7 @@
             <span class="billspayment-text58"><span>telephone</span></span>
             
      
-            <span class="billspayment-text65"><span>500L.E</span></span>
+            <span class="billspayment-text65"><span>500$</span></span>
           
             <span class="billspayment-text69"><span>10/06/2023</span></span>
           </div>
@@ -481,6 +481,9 @@
     else if(x1==="4"){
       div4.parentNode.removeChild(div4);
       location.replace('/PaidBill.html');
+    }
+    else{
+      alert("Invalid ID! Please Enter a Valid ID")
     }
   }
   </script>

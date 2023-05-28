@@ -687,6 +687,29 @@ button:hover{
 
 
 }
+.kk2{
+  
+  
+ left: -200px;
+  width: 200px;
+  color: white;
+  border: solid white;
+  background-color: rgba(0, 0, 0, 0.3);
+  height: auto;
+  font-size: 20px;
+  font-style: Regular;
+  text-align: center;
+  font-family: GetVoIP Grotesque;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+  padding: 20px 50px;
+  position: relative;
+  cursor: pointer;
+  border-radius: 30px;
+
+}
 .creditcard-text016 {
   color: rgba(255, 255, 255, 1);
   width: 204px;
