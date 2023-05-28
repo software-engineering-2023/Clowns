@@ -1,6 +1,8 @@
 :root{
-  background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url("http://getwallpapers.com/wallpaper/full/f/c/1/745431-download-free-good-desktop-backgrounds-1920x1200-large-resolution.jpg");
-
+  /*background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url("http://getwallpapers.com/wallpaper/full/f/c/1/745431-download-free-good-desktop-backgrounds-1920x1200-large-resolution.jpg");
+*/
+background-image:url(v.jpg) ;
+background-size: auto;
              }
 body {
   font-family: Arial, sans-serif;
@@ -9,31 +11,37 @@ body {
 }
 
 h1 {
+  font-family: Michroma;
   text-align: center;
   margin-top: 50px;
-  color: azure;
+  color: rgb(138, 142, 142);
 }
 
 form {
   margin: 0 auto;
   max-width: 500px;
-  background-color: white;
+  background-color: #ccc;
   border-radius: 5px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   padding: 20px;
 }
 
 label {
+  color:black;
+  font-family: Michroma;
+  font-size: 12px;
   display: inline-block;
   margin-bottom: 5px;
 }
 
 input,
 select {
-  font-size: 16px;
+  font-family: Michroma;
+  font-size: 14px;
   padding: 10px;
   border: none;
   border-radius: 5px;
+  color:rgb(0, 0, 0);
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
   width: 100%;
   margin-bottom: 15px;
@@ -44,16 +52,17 @@ input[type="number"] {
 }
 
 button[type="submit"] {
-  background-color: #1c00b5;
+  background-color: #3c3493;
   color: white;
   border: none;
   border-radius: 5px;
   padding: 10px 20px;
-  font-size: 16px;
+  font-family: Michroma;
+  font-size: 14px;
   cursor: pointer;
 }
 
 button[type="submit"]:hover {
-  background-color: #3e8e41;
+  background-color: #7569ff;
 }
 
