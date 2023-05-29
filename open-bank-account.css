@@ -451,7 +451,7 @@ button:hover{
 .open-bank-account-text06 {
   color: rgba(242, 240, 239, 1);
   height: auto;
-  font-size: 26px;
+  font-size: 21px;
   font-style: Regular;
   text-align: center;
   font-family: GetVoIP Grotesque;
@@ -499,7 +499,7 @@ button:hover{
 .open-bank-account-text10 {
   color: rgba(242, 240, 239, 1);
   height: auto;
-  font-size: 26px;
+  font-size: 18px;
   font-style: Regular;
   text-align: center;
   font-family: GetVoIP Grotesque;
@@ -534,7 +534,8 @@ button:hover{
 }
 .open-bank-account-text14 {
   top: 137px;
-  left: 685px;
+  left: 645px;
+  width:200px;
   color: rgba(242, 240, 239, 1);
   height: auto;
   position: absolute;
@@ -547,11 +548,21 @@ button:hover{
   font-stretch: normal;
   text-decoration: none;
 }
+.open-bank-account-text24:hover{
+  text-decoration: underline;
+}
+.open-bank-account-text26:hover{
+  text-decoration: underline;
+}
+.open-bank-account-text32:hover{
+  text-decoration: underline;
+}
+
 .open-bank-account-text16 {
   top: 138px;
   left: 931px;
   color: rgba(242, 240, 239, 1);
-  width: 165px;
+  width: auto;
   height: auto;
   position: absolute;
   font-size: 18px;
@@ -599,10 +610,10 @@ button:hover{
   top: 193px;
   left: 896px;
   color: rgba(242, 240, 239, 1);
-  width: 235px;
+  width: 200px;
   height: auto;
   position: absolute;
-  font-size: 18px;
+  font-size: 16px;
   font-style: Regular;
   text-align: center;
   font-family: Michroma;
@@ -1236,6 +1247,12 @@ button:hover{
 }
 .open-bank-account-text63 {
   color: rgba(255, 255, 255, 1);
+}
+.open-bank-account-text64:hover{
+  text-decoration: underline;
+}
+.open-bank-account-text61:hover{
+  text-decoration: underline;
 }
 .open-bank-account-text64 {
   color: rgba(117, 105, 255, 1);

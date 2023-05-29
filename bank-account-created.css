@@ -422,7 +422,7 @@
 .bank-account-created-text04 {
   color: rgba(242, 240, 239, 1);
   height: auto;
-  font-size: 26px;
+  font-size: 21px;
   font-style: Regular;
   text-align: center;
   font-family: GetVoIP Grotesque;
@@ -470,7 +470,7 @@
 .bank-account-created-text08 {
   color: rgba(242, 240, 239, 1);
   height: auto;
-  font-size: 26px;
+  font-size: 18px;
   font-style: Regular;
   text-align: center;
   font-family: GetVoIP Grotesque;
@@ -505,9 +505,9 @@
 }
 .bank-account-created-text12 {
   top: 137px;
-  left: 702.3136596679688px;
+  left: 665.3136596679688px;
   color: rgba(242, 240, 239, 1);
-  width: 97px;
+  width: 200px;
   height: auto;
   position: absolute;
   font-size: 20px;
@@ -519,11 +519,20 @@
   font-stretch: normal;
   text-decoration: none;
 }
+.bank-account-created-text22:hover{
+  text-decoration: underline;
+}
+.bank-account-created-text24:hover{
+  text-decoration: underline;
+}
+.bank-account-created-text30:hover{
+  text-decoration: underline;
+}
 .bank-account-created-text14 {
   top: 138px;
   left: 954.5314331054688px;
   color: rgba(242, 240, 239, 1);
-  width: 169px;
+  width: auto;
   height: auto;
   position: absolute;
   font-size: 18px;
@@ -587,7 +596,7 @@
   top: 137px;
   left: 445.99481201171875px;
   color: rgba(242, 240, 239, 1);
-  width: 97px;
+  width: auto;
   height: auto;
   position: absolute;
   font-size: 20px;
@@ -603,7 +612,7 @@
   top: 197px;
   left: 445.99481201171875px;
   color: rgba(242, 240, 239, 1);
-  width: 97px;
+  width: auto;
   height: auto;
   position: absolute;
   font-size: 20px;
@@ -651,7 +660,7 @@
   top: 257px;
   left: 445.99481201171875px;
   color: rgba(242, 240, 239, 1);
-  width: 97px;
+  width: auto;
   height: auto;
   position: absolute;
   font-size: 20px;
