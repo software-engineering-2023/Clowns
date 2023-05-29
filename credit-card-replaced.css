@@ -430,7 +430,7 @@
 .credit-card-replaced-text04 {
   color: rgba(242, 240, 239, 1);
   height: auto;
-  font-size: 26px;
+  font-size: 21px;
   font-style: Regular;
   text-align: center;
   font-family: GetVoIP Grotesque;
@@ -478,7 +478,7 @@
 .credit-card-replaced-text08 {
   color: rgba(242, 240, 239, 1);
   height: auto;
-  font-size: 26px;
+  font-size: 18px;
   font-style: Regular;
   text-align: center;
   font-family: GetVoIP Grotesque;
@@ -513,7 +513,8 @@
 }
 .credit-card-replaced-text12 {
   top: 137px;
-  left: 685px;
+  left: 645px;
+  width:200px;
   color: rgba(242, 240, 239, 1);
   height: auto;
   position: absolute;
@@ -530,7 +531,7 @@
   top: 138px;
   left: 931px;
   color: rgba(242, 240, 239, 1);
-  width: 165px;
+  width: auto;
   height: auto;
   position: absolute;
   font-size: 18px;
@@ -541,6 +542,18 @@
   line-height: normal;
   font-stretch: normal;
   text-decoration: none;
+}
+button:hover{
+  transform: scale(1.05);
+}
+.credit-card-replaced-text22:hover{
+  text-decoration: underline;
+}
+.credit-card-replaced-text24:hover{
+  text-decoration: underline;
+}
+.credit-card-replaced-text30:hover{
+  text-decoration: underline;
 }
 .credit-card-replaced-text16 {
   top: 141px;

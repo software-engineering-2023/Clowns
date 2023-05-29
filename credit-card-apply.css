@@ -425,7 +425,7 @@ button:hover{
 .credit-card-apply-text04 {
   color: rgba(242, 240, 239, 1);
   height: auto;
-  font-size: 26px;
+  font-size: 21px;
   font-style: Regular;
   text-align: center;
   font-family: GetVoIP Grotesque;
@@ -473,7 +473,7 @@ button:hover{
 .credit-card-apply-text08 {
   color: rgba(242, 240, 239, 1);
   height: auto;
-  font-size: 26px;
+  font-size: 18px;
   font-style: Regular;
   text-align: center;
   font-family: GetVoIP Grotesque;
@@ -506,10 +506,20 @@ button:hover{
   font-stretch: normal;
   text-decoration: none;
 }
+.credit-card-apply-text22:hover{
+  text-decoration: underline;
+}
+.credit-card-apply-text24:hover{
+  text-decoration: underline;
+}
+.credit-card-apply-text30:hover{
+  text-decoration: underline;
+}
 .credit-card-apply-text12 {
   top: 1883px;
-  left: 685px;
+  left: 645px;
   color: rgba(242, 240, 239, 1);
+  width: 200px;
   height: auto;
   position: absolute;
   font-size: 20px;
@@ -525,7 +535,7 @@ button:hover{
   top: 1884px;
   left: 931px;
   color: rgba(242, 240, 239, 1);
-  width: 165px;
+  width: auto;
   height: auto;
   position: absolute;
   font-size: 18px;
@@ -975,6 +985,12 @@ button:hover{
 }
 .credit-card-apply-text52 {
   color: rgba(255, 255, 255, 1);
+}
+.credit-card-apply-text53:hover{
+  text-decoration:underline;
+}
+.credit-card-apply-text50:hover{
+  text-decoration:underline;
 }
 .credit-card-apply-text53 {
   color: rgba(117, 105, 255, 1);

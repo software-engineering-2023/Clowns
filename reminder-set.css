@@ -440,7 +440,7 @@ button:hover{
 .reminder-set-text04 {
   color: rgba(242, 240, 239, 1);
   height: auto;
-  font-size: 26px;
+  font-size: 21px;
   font-style: Regular;
   text-align: center;
   font-family: GetVoIP Grotesque;
@@ -488,7 +488,7 @@ button:hover{
 .reminder-set-text08 {
   color: rgba(242, 240, 239, 1);
   height: auto;
-  font-size: 26px;
+  font-size: 18px;
   font-style: Regular;
   text-align: center;
   font-family: GetVoIP Grotesque;
@@ -523,7 +523,8 @@ button:hover{
 }
 .reminder-set-text12 {
   top: 137px;
-  left: 685px;
+  left: 645px;
+  width: 200px;
   color: rgba(242, 240, 239, 1);
   height: auto;
   position: absolute;
@@ -536,11 +537,20 @@ button:hover{
   font-stretch: normal;
   text-decoration: none;
 }
+.reminder-set-text22:hover{
+  text-decoration: underline;
+}
+.reminder-set-text24:hover{
+  text-decoration: underline;
+}
+.reminder-set-text30:hover{
+  text-decoration: underline;
+}
 .reminder-set-text14 {
   top: 138px;
   left: 931px;
   color: rgba(242, 240, 239, 1);
-  width: 165px;
+  width: auto;
   height: auto;
   position: absolute;
   font-size: 18px;

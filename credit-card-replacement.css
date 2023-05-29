@@ -509,7 +509,8 @@
 }
 .credit-card-replacement-text12 {
   top: 1883px;
-  left: 685px;
+  left: 645px;
+  width:200px;
   color: rgba(242, 240, 239, 1);
   height: auto;
   position: absolute;
@@ -522,11 +523,24 @@
   font-stretch: normal;
   text-decoration: none;
 }
+button:hover{
+  transform: scale(1.05);
+}
+
+.credit-card-replacement-text22:hover{
+  text-decoration: underline;
+}
+.credit-card-replacement-text24:hover{
+  text-decoration: underline;
+}
+.credit-card-replacement-text30:hover{
+  text-decoration: underline;
+}
 .credit-card-replacement-text14 {
   top: 1884px;
   left: 931px;
   color: rgba(242, 240, 239, 1);
-  width: 165px;
+  width: auto;
   height: auto;
   position: absolute;
   font-size: 18px;
@@ -988,6 +1002,9 @@
 .credit-card-replacement-text44 {
   color: rgba(59, 51, 146, 1);
 }
+.credit-card-replacement-text45:hover{
+text-decoration: underline;
+}
 .credit-card-replacement-text45 {
   color: rgba(117, 105, 255, 1);
 }
@@ -996,6 +1013,9 @@
 }
 .credit-card-replacement-text47 {
   color: rgba(255, 255, 255, 1);
+}
+.credit-card-replacement-text48:hover{
+  text-decoration: underline;
 }
 .credit-card-replacement-text48 {
   color: rgba(117, 105, 255, 1);

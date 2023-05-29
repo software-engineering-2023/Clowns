@@ -499,6 +499,15 @@ button:hover{
   align-items: flex-start;
   flex-shrink: 0;
 }
+.credit-card-apply2-text22:hover{
+text-decoration: underline;
+}
+.credit-card-apply2-text24:hover{
+  text-decoration: underline;
+  }
+  .credit-card-apply2-text30:hover{
+    text-decoration: underline;
+    }  
 .credit-card-apply2-text10 {
   color: rgba(242, 240, 239, 1);
   height: auto;
@@ -513,8 +522,9 @@ button:hover{
 }
 .credit-card-apply2-text12 {
   top: 137px;
-  left: 685px;
+  left: 645px;
   color: rgba(242, 240, 239, 1);
+  width: 200px;
   height: auto;
   position: absolute;
   font-size: 20px;
@@ -530,7 +540,7 @@ button:hover{
   top: 138px;
   left: 931px;
   color: rgba(242, 240, 239, 1);
-  width: 165px;
+  width: auto;
   height: auto;
   position: absolute;
   font-size: 18px;
@@ -766,6 +776,10 @@ button:hover{
 .credit-card-apply2-text41 {
   color: rgba(59, 51, 146, 1);
 }
+.credit-card-apply2-text42:hover{
+  text-decoration: underline;
+}
+
 .credit-card-apply2-text42 {
   color: rgba(117, 105, 255, 1);
 }
@@ -774,6 +788,9 @@ button:hover{
 }
 .credit-card-apply2-text44 {
   color: rgba(255, 255, 255, 1);
+}
+.credit-card-apply2-text45:hover{
+  text-decoration: underline;
 }
 .credit-card-apply2-text45 {
   color: rgba(117, 105, 255, 1);

@@ -523,7 +523,8 @@ button:hover{
 }
 .paid-bill-text12 {
   top: 137px;
-  left: 685px;
+  left: 645px;
+  width:200px;
   color: rgba(242, 240, 239, 1);
   height: auto;
   position: absolute;
@@ -536,11 +537,20 @@ button:hover{
   font-stretch: normal;
   text-decoration: none;
 }
+.paid-bill-text22:hover{
+  text-decoration: underline;
+}
+.paid-bill-text24:hover{
+  text-decoration: underline;
+}
+.paid-bill-text30:hover{
+  text-decoration: underline;
+}
 .paid-bill-text14 {
   top: 138px;
   left: 931px;
   color: rgba(242, 240, 239, 1);
-  width: 165px;
+  width: auto;
   height: auto;
   position: absolute;
   font-size: 18px;

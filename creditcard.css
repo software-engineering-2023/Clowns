@@ -1105,7 +1105,7 @@ button:hover{
 .creditcard-text053 {
   color: rgba(242, 240, 239, 1);
   height: auto;
-  font-size: 26px;
+  font-size: 21px;
   font-style: Regular;
   text-align: center;
   font-family: GetVoIP Grotesque;
@@ -1129,11 +1129,12 @@ button:hover{
 .creditcard-text055 {
   color: rgba(242, 240, 239, 1);
   height: auto;
-  font-size: 26px;
+  width: 200px;;
+  font-size: 21px;
   font-style: Regular;
   text-align: center;
   font-family: GetVoIP Grotesque;
-  font-weight: 400;
+  font-weight: 200;
   line-height: normal;
   font-stretch: normal;
   text-decoration: none;
@@ -1153,7 +1154,8 @@ button:hover{
 .creditcard-text057 {
   color: rgba(242, 240, 239, 1);
   height: auto;
-  font-size: 26px;
+  
+  font-size: 18px;
   font-style: Regular;
   text-align: center;
   font-family: GetVoIP Grotesque;
@@ -1188,12 +1190,12 @@ button:hover{
 }
 .creditcard-text061 {
   top: 137px;
-  left: 692.10302734375px;
+  left: 655.10302734375px;
   color: rgba(242, 240, 239, 1);
-  width: 96px;
+  width: 180px;
   height: auto;
   position: absolute;
-  font-size: 20px;
+  font-size: 15px;
   font-style: Regular;
   text-align: center;
   font-family: Michroma;
@@ -1204,9 +1206,9 @@ button:hover{
 }
 .creditcard-text063 {
   top: 138px;
-  left: 940.6539306640625px;
+  left: 800.6539306640625px;
   color: rgba(242, 240, 239, 1);
-  width: 167px;
+  width: 400px;
   height: auto;
   position: absolute;
   font-size: 18px;
@@ -1223,6 +1225,54 @@ button:hover{
   left: 1189.204833984375px;
   color: rgba(242, 240, 239, 1);
   width: 206px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Michroma;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.x {
+  top: 240px;
+  left: 1070.204833984375px;
+  color: rgba(242, 240, 239, 1);
+  width: 206px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Michroma;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.y {
+  top: 270px;
+  left: 1120.204833984375px;
+  color: rgba(242, 240, 239, 1);
+  width: 40px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Michroma;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.z {
+  top: 270px;
+  left: 1170.204833984375px;
+  color: rgba(242, 240, 239, 1);
+  width: 40px;
   height: auto;
   position: absolute;
   font-size: 16px;
@@ -1266,11 +1316,20 @@ button:hover{
   font-stretch: normal;
   text-decoration: none;
 }
+.creditcard-text079:hover{
+  text-decoration: underline;
+}
+.creditcard-text073:hover{
+  text-decoration: underline;
+}
+.creditcard-text071:hover{
+  text-decoration: underline;
+}
 .creditcard-text071 {
   top: 137px;
-  left: 439.51068115234375px;
+  left: 429.51068115234375px;
   color: rgba(242, 240, 239, 1);
-  width: 96px;
+  width: 150px;
   height: auto;
   position: absolute;
   font-size: 20px;
@@ -1284,9 +1343,9 @@ button:hover{
 }
 .creditcard-text073 {
   top: 197px;
-  left: 439.51068115234375px;
+  left: 436.51068115234375px;
   color: rgba(242, 240, 239, 1);
-  width: 96px;
+  width: auto;
   height: auto;
   position: absolute;
   font-size: 20px;
@@ -1334,7 +1393,7 @@ button:hover{
   top: 257px;
   left: 439.51068115234375px;
   color: rgba(242, 240, 239, 1);
-  width: 96px;
+  width: auto;
   height: auto;
   position: absolute;
   font-size: 20px;
