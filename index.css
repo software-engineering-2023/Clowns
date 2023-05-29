@@ -9,6 +9,9 @@
     src: url(Michroma-Regular.ttf);
   }
     
+  button:hover{
+    transform: scale(1.03);
+  }
 * {
     box-sizing: border-box;
     font-family: Michroma;
@@ -36,6 +39,9 @@
      cursor: pointer;
      border-radius: 20px;
    
+   }
+   button[type="kk2"]:hover{
+    transform: scale(1.5);
    }
 body {
     background-image: url(x.jpg);

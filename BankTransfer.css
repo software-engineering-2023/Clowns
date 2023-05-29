@@ -1,8 +1,8 @@
 :root{
   /*background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url("http://getwallpapers.com/wallpaper/full/f/c/1/745431-download-free-good-desktop-backgrounds-1920x1200-large-resolution.jpg");
 */
-background-image:url(v.jpg) ;
-background-size: auto;
+background-image:url(x.jpg) ;
+background-size: cover;
              }
              
 body {
@@ -21,7 +21,7 @@ h1 {
 form {
   margin: 0 auto;
   max-width: 500px;
-  background-color: #ccc;
+  background-color:  rgba(220, 220, 220, 0.7);
   border-radius: 5px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   padding: 20px;

@@ -16,59 +16,59 @@
     <fieldset>
       <legend>Basic Information</legend>
       <label for="first name">First Name</label>
-      <input type="text" name="first-name" />
-      <label for="middle initial">Middle Initial</label>
-      <input type="text" name="middle initial" />
+      <input type="text" name="first-name" placeholder="Please enter your first name" />
+      <label for="middle initial">Middle Initial </label>
+      <input type="text" name="middle initial" placeholder="Please enter your middle initial"/>
       <label for="last name">Last Name</label>
-      <input type="text" name="last-name" />
+      <input type="text" name="last-name" placeholder="Please enter your last name"/>
       <br/>
       <label for="email address">Email</label>
-      <input type="text" name="email" placeholder="janedoe31@yahoo.com" />
+      <input type="text" name="email" placeholder="example@domain.com" />
       <label for="telephone">Contact Number</label>
-      <input type="text" name="telephone" />
+      <input type="text" name="telephone" placeholder="01........."/>
       <br/>
       <label for="home address">Home Address</label>
-      <input type="text" name="address" />
+      <input type="text" name="address" placeholder="Street name , building number , floor , apartment number , city , governerate"/>
     </fieldset>
     <fieldset>
       <legend>Work Information</legend>
       <label for="occupation">Current Occupation</label>
-      <input type="text" name="occupation" />
+      <input type="text" name="occupation"placeholder="Student/doctor/engineer etc..." />
       <label for="company name">Employer Name</label>
-      <input type="text" name="company name" />
+      <input type="text" name="company name" placeholder="if you're a student write N/A" />
       <label for="company location">Employer Address</label>
-      <input type="text" name="company location" />
+      <input type="text" name="company location" placeholder="Street name , building number , floor , apartment number , city , governerate"/>
     </fieldset>
     <fieldset>
       <legend>Loan Type & Amount</legend>
-      <input name="loan" list="type-of-loan"/>
-        <datalist id="type-of-loan" 
-          <option value="Commercial">
-          <option value="Car">
-          <option value="Personal">
-        </datalist>
+     <!-- <input name="loan" list="type-of-loan"/>-->
+     <label for="from-account">Loan type:</label>
+      <select id="from-account">
+        <option value="1234567890">car</option>
+        <option value="0987654321">personal</option>
+      </select>
        <br/>
       <label for="loan amount">Loan Amount</label>
       <input type="text" name="loan amount" />
     </fieldset>
     <fieldset>
       <legend>Length of Loan (in months)</legend>
-      <input type="radio" name="length-of-time" value="5">2
-      <input type="radio" name="length-of-time" value="15">5
-      <input type="radio" name="length-of-time" value="30">8
+      <input type="radio" name="length-of-time" class="kkk" value="5">2
+      <input type="radio" name="length-of-time" class="kkk" value="15">5
+      <input type="radio" name="length-of-time" class="kkk" value="30">8
     </fieldset>
     <fieldset>
       <legend>Marital Status</legend>
-      <input type="checkbox" name="status" value="single">Single
-      <input type="checkbox" name="status" value="married">Married
-      <input type="checkbox" name="status" value="divorced">Divorced
+      <input type="checkbox" name="status" class="kkk" value="single">Single
+      <input type="checkbox" name="status" class="kkk" value="married">Married
+      <input type="checkbox" name="status" class="kkk" value="divorced">Divorced
     </fieldset>
     <fieldset>
       <legend>Special Considerations</legend>
       <label for="down payment">Down Payment</label>
       <input type="text" name="down payment" />
-      <input type="checkbox" name="out-of-state" value="out-of-state">Out of State Resident
-      <input type="checkbox" name="cosigner" value="cosigner">Cosigner
+      <input type="checkbox" name="out-of-state" class="kkk" value="out-of-state">Out of State Resident
+      <input type="checkbox" name="cosigner" class="kkk" value="cosigner">Cosigner
       <br/>
       <label for="name">Name of Cosigner</label>
       <input type="text" name="name-of-cosigner" />
@@ -83,7 +83,7 @@
     </fieldset>
   
    <a href="/LoanApplied.html" style="text-decoration:none"><button type="button" >Submit</button></a>
-    <button type="button2"><a href="/loancalc.html" style="text-decoration:none" class ="prev">Loan Calculator</a></button>
-    <button type="button2"><a href="client.html" style="text-decoration:none" class ="prev">Previous Page</a></button>
+    <button type="button2"><a href="/loancalc.html" style="text-decoration:none" class ="prev">Loan Calculator</button></a>
+    <button type="button2"><a href="/client.html" style="text-decoration:none" class ="prev">Previous Page</button></a>
 
   </form>

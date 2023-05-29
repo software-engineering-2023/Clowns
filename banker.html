@@ -3,16 +3,28 @@
 <head>
   <title>Banker Page</title>
   <style>
+     @font-face {
+  font-family:getvoip grotesque ;
+  src: url(getvoip-grotesque.ttf);
+}
+@font-face {
+  font-family:Michroma ;
+  src: url(Michroma-Regular.ttf);
+}
     :root {
       --primary-color: black;
       --success-color: #4CAF50;
       --error-color: #F44336;
-      --background-color: #f1f1f1;
+      --background-color: #171717;
     }
     
     body {
-      font-family: Arial, sans-serif;
-      background-color: var(--background-color);
+      color: #ddd;
+      font-family: Michroma;
+
+      /*background-color: var(--background-color);*/
+      background-image:url(x.jpg) ;
+      background-size: cover;
       margin: 0;
       padding: 0;
     }
@@ -26,7 +38,7 @@
       width: 100%;
       border-collapse: collapse;
       margin-bottom: 20px;
-      background-color: #ffffff;
+      background-color: #363636;
       box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
     }
     
@@ -51,32 +63,58 @@
     }
     
     .btn-approve {
+      font-family: Michroma;
       background-color: var(--success-color);
     }
     
     .btn-disapprove {
+      font-family:Michroma;
       background-color: var(--error-color);
     }
     
     .message-section {
+      font-family: Michroma;
       margin-top: 20px;
-      background-color: #ffffff;
+      background-color: #363636;
       padding: 20px;
       box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
     }
     
     textarea {
+      font-family: Michroma;
+      background-color: #666666;
       width: 100%;
       height: 80px;
       padding: 10px;
-      border: 1px solid #ddd;
+      border: 1px solid #666666;
       border-radius: 4px;
     }
-    
+    button:hover{
+      transform: scale(1.05);
+    }
+    button[type="btn-send"]:hover{
+      transform: scale(1.05);
+      background-color: #fff;
+    }
     .btn-send {
+      
+      width: auto;
+      font-family: Michroma;
       padding: 10px 20px;
-      background-color: var(--primary-color);
+      background-color: #3c3493;
+      border-radius: 6px;
       border: none;
+      color: white;
+      cursor: pointer;
+      font-weight: bold;
+      text-transform: uppercase;
+    }
+    .main__btn {
+      font-family: Michroma;
+      padding: 10px 20px;
+      background-color: #3c3493;
+      border-radius: 6px;
+      border: white;
       color: white;
       cursor: pointer;
       font-weight: bold;
@@ -86,7 +124,12 @@
   color: green;
   font-weight: bold;
 }
-
+.x{
+  background-color: transparent;
+}
+h1{
+  color:#ddd;
+}
 .disapproved {
   color: red;
   font-weight: bold;
@@ -120,8 +163,11 @@
   <div class="message-section">
     <textarea id="message-input" placeholder="Type your message here..."></textarea>
     <button class="btn-send" onclick="sendMessage()">Send</button>
-  </div>
 
+  </div>
+  <div class = "x">
+    <button class="btn-send"><a href="/Home.html"><p style="color:white"> Log out</p></a></button>
+  </div>
   <script>
    // JavaScript code to populate and handle application data dynamically
 // You can replace this code with your own implementation

@@ -2,6 +2,10 @@
   font-family:getvoip grotesque ;
   src: url(getvoip-grotesque.ttf);
 }
+@font-face {
+  font-family:Michroma ;
+  src: url(Michroma-Regular.ttf);
+}
 button:hover{
   
   transform: scale(1.05);

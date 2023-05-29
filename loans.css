@@ -1,3 +1,11 @@
+@font-face {
+  font-family:getvoip grotesque ;
+  src: url(getvoip-grotesque.ttf);
+}
+@font-face {
+  font-family:Michroma ;
+  src: url(Michroma-Regular.ttf);
+}
 :root{
   background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url("x.jpg");
   background-size: cover;
@@ -5,50 +13,87 @@
              }
   
   h1 {
+    font-family: Michroma;
+    color: white;
     text-align: center;
   }
   
   form {
+    font-size: small;
+    font-family: Michroma;
     max-width: 600px;
     margin: 0 auto;
     padding: 20px;
     border: 1px solid #ccc;
     border-radius: 5px;
-    background-color: aliceblue;
+   /* background: linear-gradient(to right, rgba(60,52,147,0.7),rgba(183,180,190,0.7));*/
+    background-color: rgba(169,169,169,0.4);
   }
-  
+  .from-account{
+    font-family: Michroma;
+  }
   fieldset {
+    font-family: Michroma;
     margin-bottom: 20px;
     border: none;
   }
   
   legend {
+    color: rgba(220, 220, 220, 1);
+    font-family: getvoip grotesque;
     font-weight: bold;
   }
-  
+  option{
+    font-family: Michroma;
+  }
   label {
+
+      font-family: Michroma;
+      font-size: 12px;
+      display: inline-block;
+      margin-bottom: 5px;
+    font-family: Michroma;
+    color:white;
     display: block;
     margin-bottom: 5px;
   }
-  
+  .type-of-loan{
+    font-family: Michroma;
+  }
+  datalist{
+    font-family: Michroma;
+  }
   input[type="text"],
   textarea {
+    font-family: Michroma;
     width: 100%;
     padding: 8px;
     border: 1px solid #ccc;
     border-radius: 4px;
   }
-  
+  .kkk{
+    color:white;
+  }
+  fieldset{
+    color: white;
+  }
   input[type="radio"],
   input[type="checkbox"] {
+    
     margin-right: 5px;
   }
-  
+ input,select{ 
+     font-family: Michroma;
+  }
+  button:hover{
+    transform: scale(1.03);
+  }
   button[type="button"] {
+    font-family: Michroma;
     display: block;
     width: 100%;
     padding: 8px;
-    background-color: #4CAF50;
+    background-color: #3c3493;
     color: #fff;
     border: none;
     border-radius: 4px;
@@ -57,10 +102,11 @@
   }
   
   button[type="button"]:hover {
-    background-color: #45a049;
+    background-color: #7569ff;
   }
   
   button[type="button2"] {
+    font-family: Michroma;
     display: block;
     width: 100%;
     padding: 8px;

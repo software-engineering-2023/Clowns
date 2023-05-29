@@ -6,22 +6,39 @@
   <title>Notifications Page</title>
   <style>
     /* Global Styles */
+    @font-face {
+  font-family:getvoip grotesque ;
+  src: url(getvoip-grotesque.ttf);
+}
+@font-face {
+  font-family:Michroma ;
+  src: url(Michroma-Regular.ttf);
+}
     :root{
-  background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url("http://getwallpapers.com/wallpaper/full/f/c/1/745431-download-free-good-desktop-backgrounds-1920x1200-large-resolution.jpg");
-
+  /*background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url("http://getwallpapers.com/wallpaper/full/f/c/1/745431-download-free-good-desktop-backgrounds-1920x1200-large-resolution.jpg");
+*/
+background-image: url(x.jpg);
+background-size: cover;
              }
+    .type1{
+      color: #7569ff;
+    }
+    .type2{
+      color:#3c3493;
+    }
     body {
-      font-family: Arial, sans-serif;
+      font-family: Michroma;
       /* background-color: #f0f0f0; */
       margin: 0;
       padding: 0;
     }
     
     .container {
+      border-radius: 6px;
       max-width: 1000px;
       margin: 40px auto;
       padding: 20px;
-      background-color: whitesmoke;
+      background-color:rgba(220, 220, 220, 0.7);
       box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
     }
     
@@ -72,7 +89,7 @@
     
     /* Notification Types */
     .reminder {
-      border-left: 4px solid #f1c40f;
+      border-left: 4px solid #7569ff;
     }
     
     .notification .type {
@@ -96,7 +113,7 @@
     }
     
     .notification .content .actions button {
-      background-color: #f1c40f;
+      background-color: #7569ff;
       color: #fff;
       border: none;
       padding: 5px 10px;
@@ -123,7 +140,8 @@
     
     /* Bank Announcements */
     .announcement {
-      border-left: 4px solid #3498db;
+      color: #333;
+      border-left: 4px solid #3c3493;
     }
     
     /* Custom Scrollbar */
@@ -149,27 +167,41 @@
     .notifications-list::-webkit-scrollbar-thumb:hover {
       background-color: #aaa;
     }
+    button:hover{
+      transform: scale(1.05);
+    }
     button[type="button"] {
+      font-family: Michroma;
+      position: sticky;
+    bottom:100px;
+    left: 580px;
     display: block;
-    font-size: medium;
+   /* border-bottom: black;
+    border-right: black;
+    border-left: black;
+    border-top: black;
+    font-size: medium;*/
     padding: 10px;
-    background-color: black;
-    color: #fff;
-    border-radius: 4px;
+    border-color: black;
+   /* background-color:rgba(220, 220, 220, 0.5);*/
+   background-color: transparent;
+    color: #333;
+    border-radius: 6px;
     cursor: pointer;
   }
   </style>
 </head>
 <body>
   <div>
-    <a href="/client.html" style="text-decoration:none"><button type="button">Previous Page</button></a>
+   
   </div>
+  
   <div class="container">
     <h1>Notifications</h1>
     <div class="notifications-list">
       <div class="notification reminder unread">
         <div class="mark-as-read">Mark as Read</div>
-        <div class="type">Reminder</div>
+        <div class="type1">Reminder</div>
         <div class="content">
           <p>Don't forget to pay gas / electricity/ water/ telephone bills for this month.</p>
           <div class="actions">
@@ -182,7 +214,7 @@
       </div>
       <div class="notification reminder">
         <div class="mark-as-read">Mark as Read</div>
-        <div class="type">Reminder</div>
+        <div class="type1">Reminder</div>
         <div class="content">
           <p>Please note that your credit card is about to expire.</p>
           <div class="actions">
@@ -195,7 +227,7 @@
       </div>
       <div class="notification announcement unread">
         <div class="mark-as-read">Mark as Read</div>
-        <div class="type">Bank Announcement</div>
+        <div class="type2">Bank Announcement</div>
         <div class="content">
           <p>The Bank has released a new type of loan.</p>
           <div class="actions">
@@ -207,7 +239,7 @@
       </div>
       <div class="notification reminder unread">
         <div class="mark-as-read">Mark as Read</div>
-        <div class="type">Reminder</div>
+        <div class="type1">Reminder</div>
         <div class="content">
           <p>Don't forget to pay your loan payment.</p>
           <div class="actions">
@@ -220,7 +252,7 @@
       </div>
       <div class="notification announcement">
         <div class="mark-as-read">Mark as Read</div>
-        <div class="type">Bank Announcement</div>
+        <div class="type2">Bank Announcement</div>
         <div class="content">
           <p>There will be a scheduled maintenance on our banking system this weekend.</p>
           <div class="actions">
@@ -232,7 +264,7 @@
       </div>
       <div class="notification reminder">
         <div class="mark-as-read">Mark as Read</div>
-        <div class="type">Reminder</div>
+        <div class="type1">Reminder</div>
         <div class="content">
           <p>The issue that was reported to the admin was solved successfully.</p>
           <div class="actions">
@@ -245,7 +277,7 @@
       </div>
       <div class="notification announcement">
         <div class="mark-as-read">Mark as Read</div>
-        <div class="type">Reminder</div>
+        <div class="type1">Reminder</div>
         <div class="content">
           <p>Your credit card payment is due in 5 days.</p>
           <div class="actions">
@@ -257,7 +289,7 @@
       </div>
       <div class="notification announcement unread">
         <div class="mark-as-read">Mark as Read</div>
-        <div class="type">Bank Announcement</div>
+        <div class="type2">Bank Announcement</div>
         <div class="content">
           <p>Upgrade your account to premium and get exclusive benefits.</p>
           <div class="actions">
@@ -268,6 +300,7 @@
         </div>
       </div>
     </div>
+    <a href="/client.html" style="text-decoration:none"><button type="button">Previous Page</button></a>
   </div>
   <script>
     const notifications = document.querySelectorAll('.notification');
