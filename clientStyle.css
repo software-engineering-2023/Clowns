@@ -209,6 +209,7 @@ i p{
 .home{
     font-family: Michroma;
     margin:  auto;
+    margin-top: 5px;
     padding: 20px 123px;
     background-color: darkgrey;
     border: none;

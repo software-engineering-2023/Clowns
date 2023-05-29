@@ -1,0 +1,155 @@
+@font-face {
+  font-family:getvoip grotesque ;
+  src: url(getvoip-grotesque.ttf);
+}
+@font-face {
+  font-family:Michroma ;
+  src: url(Michroma-Regular.ttf);
+}
+:root{
+  background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url("x.jpg");
+  background-size: cover;
+
+             }
+
+/* Body styles */
+body {
+  font-family: Michroma;
+  font-size: 16px;
+  
+  margin: 0;
+  padding: 0;
+}
+
+/* Header styles */
+header {
+  background-color: #333;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  color: #fff;
+  margin: 0;
+}
+h3{
+  color: azure;
+}
+
+/* Table styles */
+table {
+  margin: 20px auto;
+  border-collapse: collapse;
+  width: 800px;
+}
+
+th,
+td {
+  padding: 10px;
+  text-align: left;
+  color: azure;
+}
+
+th {
+  background-color: #333;
+  color: #fff;
+}
+
+td {
+  border-bottom: 1px solid #333;
+}
+
+tr:nth-child(even) {
+  background-color: #333;
+}
+
+
+/* Button styles */
+.button-container button {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin-left: 700px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+}
+
+.button-container button:hover {
+  background-color: #555;
+  transform: scale(1.05);
+}
+
+.button-container button:focus {
+  outline: none;
+}
+
+.create {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.create input[type="text"] {
+  width: 300px;
+  padding: 8px;
+  margin-right: 10px;
+}
+
+.create button {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  text-align: center;
+  text-decoration: none;
+}
+
+.create button:hover {
+  background-color: #555;
+  transform: scale(1.05);
+}
+
+.create button:focus {
+  outline: none;
+}
+  /* Input styling */
+  input[type="text"] {
+    width: 300px;
+    padding: 8px;
+  }
+  
+  /* Clear button styling */
+  #clearButton {
+    margin-left: 10px;
+  }
+  
+  /* Additional styles */
+  .body1 {
+    padding: 20px;
+  }
+  
+  .link-button {
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .link-button button {
+    background-color: #fff;
+    color: #fff;
+  }
+  
+  .link-button button:hover {
+    background-color: #111;
+  }
+output{
+  color: azure;
+}

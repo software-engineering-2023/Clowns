@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Banker Page</title>
+  <style>
+     @font-face {
+  font-family:getvoip grotesque ;
+  src: url(getvoip-grotesque.ttf);
+}
+@font-face {
+  font-family:Michroma ;
+  src: url(Michroma-Regular.ttf);
+}
+    :root {
+      --primary-color: black;
+      --success-color: #4CAF50;
+      --error-color: #F44336;
+      --background-color: #171717;
+    }
+    
+    body {
+      color: #ddd;
+      font-family: Michroma;
+
+      /*background-color: var(--background-color);*/
+      background-image:url(x.jpg) ;
+      background-size: cover;
+      margin: 0;
+      padding: 0;
+    }
+    
+    h1 {
+      text-align: center;
+      color: var(--primary-color);
+    }
+    
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-bottom: 20px;
+      background-color: #363636;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    }
+    
+    th, td {
+      padding: 10px;
+      text-align: left;
+      border-bottom: 1px solid #ddd;
+    }
+    
+    th {
+      background-color: var(--background-color);
+    }
+    
+    .btn-approve, .btn-disapprove {
+      padding: 6px 12px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      color: white;
+      font-weight: bold;
+      text-transform: uppercase;
+    }
+    
+    .btn-approve {
+      font-family: Michroma;
+      background-color: var(--success-color);
+    }
+    
+    .btn-disapprove {
+      font-family:Michroma;
+      background-color: var(--error-color);
+    }
+    
+    .message-section {
+      font-family: Michroma;
+      margin-top: 20px;
+      background-color: #363636;
+      padding: 20px;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    }
+    
+    textarea {
+      font-family: Michroma;
+      background-color: #666666;
+      width: 100%;
+      height: 80px;
+      padding: 10px;
+      border: 1px solid #666666;
+      border-radius: 4px;
+    }
+    button:hover{
+      transform: scale(1.05);
+    }
+    button[type="btn-send"]:hover{
+      transform: scale(1.05);
+      background-color: #fff;
+    }
+    .btn-send {
+      
+      width: auto;
+      font-family: Michroma;
+      padding: 10px 20px;
+      margin-top: 10px;
+
+      background-color: #3c3493;
+      border-radius: 20px;
+      border: none;
+      color: white;
+      cursor: pointer;
+      font-weight: bold;
+      text-transform: uppercase;
+    }
+    .main__btn {
+      font-family: Michroma;
+      padding: 10px 20px;
+      background-color: #3c3493;
+      border-radius: 20px;
+      border: white;
+      color: white;
+      cursor: pointer;
+      font-weight: bold;
+      text-transform: uppercase;
+    }
+    .approved {
+  color: green;
+  font-weight: bold;
+}
+.x{
+  background-color: transparent;
+}
+h1{
+  color:#ddd;
+}
+.disapproved {
+  color: red;
+  font-weight: bold;
+}
+  </style>
+</head>
+<body>
+  <h1>Issues</h1>
+
+  <h2>VIP Clients</h2>
+  <table id="credit-card-table">
+    <tr>
+      <th>Name</th>
+      <th>Status</th>
+      <th>Action</th>
+    </tr>
+    <!-- Application rows will be dynamically generated here -->
+  </table>
+
+  <h2>Regular Clients</h2>
+  <table id="loan-table">
+    <tr>
+      <th>Name</th>
+      <th>Status</th>
+      <th>Action</th>
+    </tr>
+    <!-- Application rows will be dynamically generated here -->
+  </table>
+
+  <h2>Response About The issue resolution</h2>
+  <div class="message-section">
+    <textarea id="message-input" placeholder="Type your message here..."></textarea>
+    <button class="btn-send" onclick="sendMessage()">Send</button>
+
+  </div>
+  <div class = "x">
+    <button class="btn-send"><a href="/Home.html"><p style="color:white"> Log out</p></a></button>
+  </div>
+  <script>
+   // JavaScript code to populate and handle application data dynamically
+// You can replace this code with your own implementation
+
+// Sample data for credit card applications
+var creditCardApplications = [
+  { name: "John Doe Points Not Given", status: "Pending" },
+  { name: "Jane Smith Bankers Not Responding", status: "Pending" },
+  { name: "Mark Johnson Create Account Bugs", status: "Pending" }
+];
+
+// Sample data for loan applications
+var loanApplications = [
+  { name: "Alex Brown Card Not working", status: "Pending" },
+  { name: "Emily Davis No Response", status: "Pending" },
+  { name: "Mike Wilson System Down", status: "Pending" }
+];
+
+// Populate credit card applications
+var creditCardTable = document.getElementById("credit-card-table");
+populateApplications(creditCardTable, creditCardApplications);
+
+// Populate loan applications
+var loanTable = document.getElementById("loan-table");
+populateApplications(loanTable, loanApplications);
+
+function populateApplications(table, applications) {
+  applications.forEach(function(application) {
+    var row = table.insertRow();
+    var nameCell = row.insertCell();
+    var statusCell = row.insertCell();
+    var actionCell = row.insertCell();
+
+    nameCell.textContent = application.name;
+    statusCell.textContent = application.status;
+
+    var approveBtn = document.createElement("button");
+    approveBtn.className = "btn-approve";
+    approveBtn.textContent = "Solve";
+    approveBtn.addEventListener("click", function() {
+      approveApplication(application, statusCell);
+    });
+    actionCell.appendChild(approveBtn);
+
+    var disapproveBtn = document.createElement("button");
+    disapproveBtn.className = "btn-disapprove";
+    disapproveBtn.textContent = "Queue";
+    disapproveBtn.addEventListener("click", function() {
+      disapproveApplication(application, statusCell);
+    });
+    actionCell.appendChild(disapproveBtn);
+  });
+}
+
+function approveApplication(application, statusCell) {
+  // Perform logic to approve the application
+  application.status = "Solved";
+  statusCell.textContent = "Solved";
+  statusCell.classList.remove("Queued");
+  statusCell.classList.add("Solved");
+}
+
+function disapproveApplication(application, statusCell) {
+  // Perform logic to disapprove the application
+  application.status = "Queued";
+  statusCell.textContent = "Queued";
+  statusCell.classList.remove("Solved");
+  statusCell.classList.add("Queued");
+}
+
+function sendMessage() {
+  var messageInput = document.getElementById("message-input");
+  var message = messageInput.value;
+
+  // Code to send the message to someone
+
+  // Display a pop-up message when the message is sent successfully
+  alert("Response was sent successfully!");
+
+  messageInput.value = ""; // Clear the message input
+}
+  </script>
+</body>
+</html>
