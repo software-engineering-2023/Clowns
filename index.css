@@ -17,9 +17,9 @@
     font-family: Michroma;
 }
 .kk2{
-    top :-50px; 
+    top :0px; 
     left: 0px;
-     width: 200px;
+     width: 150px;
      height: 20px;
      color: white;
      border: solid white;
@@ -34,7 +34,7 @@
      /*line-height: normal;*/
      font-stretch: normal;
      text-decoration: none;
-     padding: 20px 40px;
+     padding: 20px 20px;
      position: relative;
      cursor: pointer;
      border-radius: 20px;

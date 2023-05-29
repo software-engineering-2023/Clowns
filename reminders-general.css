@@ -1471,3 +1471,35 @@ button:hover{
   border-width: 2px;
   border-radius: 4px;
 }
+.bills-apply1 {
+  gap: 10px;
+  top: 170px;
+  left: 80px;
+  width: 130px;
+  display: flex;
+  padding: 10px 10px 10px 10px;
+  position: absolute;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: rgba(255, 255, 255, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 20px;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.4000000059604645);
+}
+.bills-text-back {
+  color: white;
+}
+.bills-text47 {
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  font-size: 25px;
+  font-style: Regular;
+  text-align: left;
+  font-family: GetVoIP Grotesque;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}

@@ -1000,7 +1000,37 @@ button:hover{
   justify-content: center;
   background-color: white;
 }
+.credit-card-apply-next1 {
+  gap: 10px;
+  top: 1183px;
+  left: 422px;
+  width: 239px;
+  display: flex;
+  padding: 10px 10px 15px 10px;
+  position: absolute;
+  box-sizing: content-box;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: rgba(255, 255, 255, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 20px;
+  justify-content: center;
+  background-color: white;
+}
 .credit-card-apply-text56 {
+  color: black;
+  height: auto;
+  font-size: 40px;
+  font-style: Regular;
+  text-align: left;
+  font-family: GetVoIP Grotesque;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.credit-card-apply-text57 {
   color: black;
   height: auto;
   font-size: 40px;
